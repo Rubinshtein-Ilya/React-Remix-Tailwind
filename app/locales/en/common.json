@@ -1,0 +1,2708 @@
+{
+  "header": {
+    "nav": {
+      "framing": "Framing Service",
+      "authenticate": "Product Authenticity",
+      "news": "News",
+      "support": "Support",
+      "about_service": "About Fan’s Dream",
+      "our_partners": "Our Partners",
+      "delivery": "Delivery",
+      "help_contacts": "Help & Contacts",
+      "teams_players": "Teams & Players",
+      "players": "Players",
+      "football": "Football",
+      "hockey": "Hockey",
+      "no_teams": "No teams",
+      "all_teams": "All teams - {{sport}}",
+      "view_all_players": "View all players"
+    },
+    "login": "Login",
+    "search": "Search a player, club...",
+    "menu": "Menu",
+    "sports": "Sports",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "wishlist_tooltip": "Login to view your wishlist",
+    "cart_tooltip": "Login to view your cart",
+    "notifications": "Notifications",
+    "notifications_tooltip": "Login to view your notifications"
+  },
+  "search": {
+    "loading": "Searching...",
+    "error": "Search error",
+    "no_results": "No results found",
+    "products": "Products",
+    "view_all_results": "View all results ({{count}})",
+    "min_chars": "Enter at least 2 characters to search",
+    "results_title": "Search Results",
+    "query_results": "Results for: \"{{query}}\""
+  },
+  "notifications": {
+    "title": "Notifications",
+    "no_notifications": "No notifications",
+    "no_unread_notifications": "No unread notifications",
+    "error_loading_notifications": "Error loading notifications",
+    "notifications_cleared": "All notifications cleared",
+    "error_clearing_notifications": "Error clearing notifications",
+    "notification_deleted": "Notification deleted",
+    "error_deleting_notification": "Error deleting notification",
+    "all_notifications_marked_read": "All notifications marked as read",
+    "error_marking_notifications_read": "Error marking notifications as read",
+    "notifications_disabled": "Notifications of this type are disabled",
+    "notification_not_found": "Notification not found",
+    "notification_settings_updated": "Notification settings updated",
+    "error_updating_notification_settings": "Error updating notification settings",
+    "buttons": {
+      "clear_all": "CLEAR ALL",
+      "mark_all_read": "MARK ALL AS READ",
+      "show_all": "SHOW ALL",
+      "show_unread_only": "UNREAD ONLY",
+      "configure_notifications": "CONFIGURE NOTIFICATIONS",
+      "open": "Open",
+      "mark_read": "Mark as Read",
+      "delete": "Delete",
+      "loading": "Loading...",
+      "deleting": "Deleting...",
+      "updating": "Updating..."
+    },
+    "categories": {
+      "all": "All",
+      "goods": "Goods",
+      "orders": "Orders",
+      "news": "News"
+    },
+    "types": {
+      "advertising": "Marketing notifications",
+      "auction_end": "Auction end",
+      "auction_win": "Auction won",
+      "bet_outbid": "Bid outbid",
+      "delivery_status": "Delivery status"
+    },
+    "bet_outbid": {
+      "title": "Your bid has been outbid!",
+      "text": "Your bid for {{itemTitle}} has been outbid. New bid: {{newBid}}"
+    },
+    "auction_win": {
+      "title": "Congratulations! You won the auction!",
+      "text": "Your bid for {{itemTitle}} won! Winning bid: {{winningBid}}"
+    },
+    "messages": {
+      "notification_click_to_view": "Click to view",
+      "notification_settings_tooltip": "Notification settings",
+      "notifications_tooltip": "Notifications",
+      "unread_count": "Unread: {{count}}",
+      "login_required": "Login to view notifications",
+      "time_ago": {
+        "hours": "{{count}}h",
+        "days": "{{count}}d",
+        "minutes": "{{count}}m"
+      },
+      "notification_image": "Notification image",
+      "loading_notifications": "Loading notifications...",
+      "retry": "Retry",
+      "refresh": "Refresh",
+      "empty_state": {
+        "title": "No notifications",
+        "description": "When you receive notifications, they will appear here.",
+        "action": "Configure notifications"
+      }
+    }
+  },
+  "share_dialog": {
+    "title": "Share",
+    "close": "Close",
+    "link": "Link",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "share_on_social": "Share on social media"
+  },
+  "login_modal": {
+    "title": "Login to Account",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "yandex_btn": "Login with Yandex",
+    "terms": "By using the service, you agree to our terms of use and privacy policy",
+    "email": "Email",
+    "password": "Password",
+    "specify_email": "Enter your email",
+    "specify_password": "Enter your password",
+    "forgot_password": "Forgot password?",
+    "login": "Login",
+    "register_email": "Register with email",
+    "register_vk": "with VKontakte",
+    "login_vk": "Login with VKontakte",
+    "register_title": "Create Account",
+    "confirm_password": "Confirm Password",
+    "specify_confirm_password": "Confirm your password",
+    "register": "Register",
+    "switch_to_register": "Don't have an account? Register",
+    "switch_to_login": "Already have an account? Login",
+    "get_code": "Get Code",
+    "verification_code": "Verification Code",
+    "enter_code": "Enter code from email",
+    "next": "Next",
+    "resend_in": "Resend in {{seconds}} sec",
+    "resend_code": "Resend code",
+    "verification_code_sent": "Verification code sent to",
+    "agreement_text": "By registering you confirm your agreement with",
+    "privacy_policy": "privacy policy",
+    "auction_rules": "auction rules",
+    "and": "and",
+    "checkbox_offer": "I agree to the <a href=\"/legal/offer\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:text-blue-800 underline\">offer</a> and <a href=\"/legal/auction-rules\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:text-blue-800 underline\">auction participation rules</a>. <span class=\"text-red-500\">*</span>",
+    "checkbox_personal_data": "I consent to the <a href=\"/legal/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:text-blue-800 underline\">processing and storage of my personal data</a>. <span class=\"text-red-500\">*</span>",
+    "checkbox_age": "I am 18 years old and have the right to participate in the auction. <span class=\"text-red-500\">*</span>",
+    "checkbox_marketing": "I agree to receive advertising and marketing information",
+    "validation": {
+      "required": "This field is required",
+      "email_invalid": "Please enter a valid email",
+      "password_min_length": "Password must be at least 8 characters long",
+      "password_complexity": "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+      "passwords_mismatch": "Passwords don't match",
+      "confirm_password": "Confirm password",
+      "verification_code_format": "Code must contain 4 digits",
+      "agree_to_terms": "You must agree to the privacy policy and auction rules",
+      "agree_to_offer": "You must agree to the offer and auction participation rules",
+      "agree_to_personal_data": "You must consent to the processing and storage of personal data",
+      "agree_to_age": "You must confirm that you are 18 years old to participate in the auction",
+      "agree_to_marketing": "Agreement to receive advertising and marketing information"
+    }
+  },
+  "loading": {
+    "processing_auth": "Processing authorization...",
+    "please_wait": "Please wait",
+    "connecting_yandex": "Connecting to Yandex...",
+    "redirecting": "Redirecting..."
+  },
+  "landing": {
+    "hero": {
+      "title": "THE FABRIC OF THE GAME",
+      "subtitle": "Neymar Jr",
+      "description": "Neymar Jr made his triumphant return to boyhood club Santos against Botafogo-SP, wearing Pelé's legendary number 10. Celebrate the Brazilian star's homecoming with this match-issued & signed shirt from his first game!",
+      "cta": "VIEW NOW"
+    },
+    "categories": {
+      "own_the_ride": "OWN THE RIDE",
+      "mens": "Men's Football",
+      "womens": "Women's Football",
+      "other": "Other Sports"
+    }
+  },
+  "404": {
+    "title": "404 OFFSIDE",
+    "subtitle": "This page is in an offside position!",
+    "description": "Offside is a rule in football where a player is in an offside position if they are nearer to the opponent's goal-line than both the ball and the second-last opponent. Unfortunately, this page is also in the wrong place.",
+    "back_to_home": "BACK TO HOME",
+    "card_text": "OFFSIDE",
+    "field_legend": "🔴 Player offside    🔵 Defender    ⚪ Ball"
+  },
+  "pages": {
+    "about": {
+      "title": "About Service",
+      "subtitle": "Your gateway to authentic football memories",
+      "description": "Fan's Dream is a premium platform for collectors and football enthusiasts, offering exclusive match-worn shirts, star autographs, and unique sports memorabilia."
+    },
+    "framing": {
+      "title": "Framing Services",
+      "subtitle": "Professional framing for your trophies",
+      "description": "Our craftsmen create the perfect frame for your shirt or memorabilia using museum-quality materials and modern conservation techniques."
+    },
+    "partners": {
+      "title": "Our Partners",
+      "subtitle": "Collaborating with industry leaders",
+      "description": "We work with leading football clubs, auction houses, and authentication experts to ensure the highest quality of goods.",
+      "exclusive_partners": "EXCLUSIVE PARTNERS",
+      "advantages_title": "Partner Benefits",
+      "cooperation_title": "How to Start Cooperation?",
+      "cooperation_description": "To start cooperation, you can fill out the form on our website or contact us by email: <0>{{email}}</0>. We will be happy to discuss partnership terms and answer all your questions.",
+      "form": {
+        "name_placeholder": "Your name",
+        "specialization_placeholder": "Your position",
+        "company_placeholder": "Company name",
+        "email_placeholder": "Your email",
+        "phone_placeholder": "+1 (___) ___-____",
+        "message_placeholder": "Comment",
+        "checkbox_personal_data": "I consent to the <a href=\"/legal/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:text-blue-800 underline\">processing and storage of my personal data</a>. <span class=\"text-red-500\">*</span>",
+        "submit": "Become a Partner"
+      },
+      "validation": {
+        "name_required": "Name is required",
+        "specialization_required": "Position is required",
+        "company_required": "Company name is required",
+        "email_required": "Email is required",
+        "email_invalid": "Invalid email format",
+        "phone_required": "Phone is required",
+        "phone_invalid_format": "Invalid phone format",
+        "message_required": "Message is required",
+        "agree_to_personal_data": "Agreement to personal data processing is required"
+      },
+      "notifications": {
+        "partnership_success": "Your partnership request has been successfully sent! We will contact you soon.",
+        "partnership_error": "An error occurred while sending your partnership request. Please try again later."
+      },
+      "advantages": {
+        "income": {
+          "title": "Additional Income Source",
+          "description": "We provide athletes and clubs with the opportunity to increase their income through the sale of unique sports goods that previously could not be officially sold. This opens new financial horizons and allows effective monetization of exclusive items."
+        },
+        "fans": {
+          "title": "Strengthening Fan Connections",
+          "description": "Our platform provides fans with access to exclusive goods, which helps strengthen the connection between clubs, athletes, and their fans. This, in turn, increases fan loyalty and commitment to the partner brand."
+        },
+        "innovation": {
+          "title": "Innovative Solutions",
+          "description": "We offer unique trading formats, such as auctions for selling collectible goods, which ensures maximum transparency and high selling value. The implementation of NFC chips for product authenticity verification guarantees a high degree of trust and confidence in product originality."
+        },
+        "premium": {
+          "title": "Premium Service",
+          "description": "Every product sold on our platform is processed with attention to detail — from professional photography and exclusive packaging to express delivery and framing in the workshop. This emphasizes the value of goods and contributes to creating a positive image for partners."
+        },
+        "flexible": {
+          "title": "Flexible Cooperation Formats",
+          "description": "We offer individual cooperation terms for each partner, which allows building long-term and mutually beneficial relationships that meet the needs and goals of athletes and clubs."
+        },
+        "transparency": {
+          "title": "Transparency and Reliability",
+          "description": "We guarantee complete transparency of all operations, providing our partners with detailed reporting. This ensures confidence in the reliability of our cooperation and full compliance with contractual obligations."
+        },
+        "charity": {
+          "title": "Charity",
+          "description": "Cooperation with our platform gives partners the opportunity to support charitable initiatives by directing part of the proceeds to socially important projects, which strengthens the public image of the brand and contributes to positive changes in society."
+        },
+        "audience": {
+          "title": "Wide Audience",
+          "description": "Our platform covers a wide range of sports disciplines, which attracts a large audience interested in purchasing unique sports memorabilia. This expands opportunities for brand promotion and increases sales volumes."
+        }
+      }
+    },
+    "authenticate": {
+      "title": "Authentication",
+      "subtitle": "Guaranteed authenticity of every item",
+      "description": "Every item in our collection undergoes rigorous authenticity verification using modern technology and expert evaluation."
+    },
+    "delivery": {
+      "title": "Delivery",
+      "subtitle": "Safe worldwide shipping",
+      "description": "We provide reliable and insured delivery of your valuable purchases with full tracking and professional packaging."
+    },
+    "help": {
+      "title": "Help and Support",
+      "subtitle": "We're ready to help you with any questions",
+      "contact_us": "Contact Support",
+      "select_category": "Select Category",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send",
+      "contact_info": "Contact Information",
+      "email": "Email",
+      "success_message": "Your request has been sent successfully",
+      "error_message": "An error occurred while sending",
+      "faq_section": {
+        "title": "Frequently Asked Questions",
+        "description": "Maybe the answer to your question is already in our FAQ section",
+        "link_text": "Go to FAQ"
+      },
+      "categories": {
+        "technical": "Technical Issues",
+        "technical_desc": "Website problems, errors, bugs",
+        "financial": "Financial Questions",
+        "financial_desc": "Payment, refund inquiries",
+        "account": "Account Questions",
+        "account_desc": "Login, profile issues",
+        "other": "Other",
+        "other_desc": "General questions and suggestions"
+      },
+      "validation": {
+        "category_required": "Please select a category",
+        "subject_required": "Please enter a subject",
+        "subject_min": "Subject must be at least 5 characters",
+        "message_required": "Please enter a message",
+        "message_min": "Message must be at least 10 characters",
+        "name_min": "Name must be at least 2 characters",
+        "name_max": "Name cannot exceed 50 characters",
+        "email_required": "Please enter your email for contact",
+        "email_invalid": "Please enter a valid email"
+      },
+      "name": "Name",
+      "name_placeholder": "Enter your name",
+      "email_placeholder": "Enter your email"
+    },
+    "football": {
+      "title": "Football",
+      "subtitle": "Football memorabilia collection",
+      "description": "Discover exclusive shirts, balls, and other memorabilia from the world's best football clubs."
+    },
+    "hockey": {
+      "title": "Hockey",
+      "subtitle": "Hockey collection",
+      "description": "Premium hockey memorabilia from leading NHL teams and international tournaments."
+    },
+    "purchase_process": {
+      "title": "Purchase Process",
+      "subtitle": "Simple path to your dream",
+      "description": "Learn how to easily and securely purchase unique sports memorabilia through our platform."
+    },
+    "packaging": {
+      "title": "Packaging",
+      "subtitle": "Premium protection for your purchases",
+      "description": "Every item is packaged with special care to ensure maximum protection during delivery."
+    },
+    "official_partners": {
+      "title": "Official Partners",
+      "subtitle": "Verified partnerships in sports",
+      "description": "We are proud to collaborate with leading sports organizations and clubs worldwide."
+    },
+    "become_partner": {
+      "title": "Become a Partner",
+      "subtitle": "Join our team",
+      "description": "Partnership opportunities for clubs, athletes, and collectors."
+    },
+    "wholesale": {
+      "title": "Wholesale Purchases",
+      "subtitle": "Special conditions for business",
+      "description": "Favorable terms for wholesale buyers and corporate clients."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Answers to popular questions",
+      "description": "Find answers to the most common questions about our service and purchase process."
+    },
+    "contact": {
+      "title": "Contact Form",
+      "subtitle": "Get in touch with us",
+      "description": "Use the contact form to send questions, suggestions, or complaints."
+    },
+    "framing_baguette": {
+      "title": "Baguette Framing",
+      "subtitle": "Classic framing",
+      "description": "Traditional wooden baguette framing to create an elegant look."
+    },
+    "framing_acrylic": {
+      "title": "Acrylic Framing",
+      "subtitle": "Modern framing solution",
+      "description": "Modern acrylic framing for a stylish and contemporary display."
+    },
+    "framing1": {
+      "title": "Create a museum exhibit from your lot",
+      "description": "Each item is delivered in Fan's Dream branded packaging, high-value items — in branded gift boxes.<br /><br />For most unique sports items, professional framing services are offered that emphasize their significance and ensure reliability. The solutions used, such as baguette frames and acrylic cases, guarantee not only preservation but also an elegant appearance.<br /><br />T-shirts, jerseys and sweaters are framed in a specialized baguette workshop that specializes in artistic framing of sports memorabilia. Customization is available for our clients, including choice of materials, colors, glass and inscriptions, allowing you to create unique framing that matches the individual wishes of the owner.<br /><br />For skates, pucks, boots and other items, acrylic cases are created that provide reliable protection, allowing you to preserve the appearance of items in perfect condition, emphasizing their value and exclusivity.",
+      "packaging": {
+        "standard": {
+          "title": "Standard packaging",
+          "description": "Reliable and stylish packaging that ensures product protection during transportation.",
+          "price": "Included in price"
+        },
+        "gift_box": {
+          "title": "Gift box",
+          "description": "Exclusive gift box for items worth from 10,000 ₽, emphasizing the value and uniqueness of the item.",
+          "price": "From 5,000 ₽"
+        },
+        "frames": {
+          "title": "Baguette frames",
+          "description": "Perfect framing for t-shirts, jerseys and sweaters, with the ability to customize materials, colors and inscriptions.",
+          "price": "From 5,000 ₽"
+        },
+        "acrylic_cases": {
+          "title": "Acrylic cases",
+          "description": "Stylish and reliable acrylic case for protection and storage of skates, pucks and other sports items.",
+          "price": "From 5,000 ₽"
+        }
+      },
+      "how_to_order": {
+        "title": "How to order item framing?",
+        "steps": {
+          "step1": "Place a bid, win the auction and pay for the won items.",
+          "step2": "After payment, click \"Frame item\".",
+          "step3": "Choose the framing option that interests you.",
+          "step4": "Confirm your choice, pay for framing services and wait for delivery of the finished item."
+        },
+        "button": "CHOOSE DESIGN"
+      }
+    }
+  },
+  "items": {
+    "title": "Items",
+    "loading": "Loading items...",
+    "error": "Error loading items",
+    "empty": "No items found",
+    "load_more": "Load more"
+  },
+  "events": {
+    "title": "Events",
+    "loading": "Loading events...",
+    "error": "Error loading events",
+    "empty": "No events found",
+    "load_more": "Load more"
+  },
+  "event_items": {
+    "title": "Event items",
+    "title_with_event": "Items from event",
+    "loading": "Loading event items...",
+    "error": "Error loading event items",
+    "empty": "No items found for this event",
+    "load_more": "Load more"
+  },
+  "item": {
+    "current_bid": "current bid",
+    "buy_now": "buy now",
+    "size": "Size",
+    "condition": "Condition"
+  },
+  "event": {
+    "view_items": "View items",
+    "not_found": "Event not found"
+  },
+  "privacy_policy": {
+    "title": "Privacy Policy",
+    "subtitle": "Protecting your data",
+    "description": "Detailed information about how we collect, use, and protect your personal data."
+  },
+  "terms_of_service": {
+    "title": "Terms of Service",
+    "subtitle": "Service usage rules",
+    "description": "Terms and conditions for using our platform and services."
+  },
+  "cookie_settings": {
+    "title": "Cookie Settings",
+    "subtitle": "Manage cookies",
+    "description": "Configure cookie usage to improve your experience on the site."
+  },
+  "mens": {
+    "title": "Mens t-shirts",
+    "products": {
+      "manchester_united": "Manchester United Home Kit 23/24",
+      "real_madrid": "Real Madrid Away Kit 23/24",
+      "barcelona": "Barcelona Third Kit 23/24",
+      "bayern": "Bayern Munich Home Kit 23/24",
+      "psg": "PSG Away Kit 23/24",
+      "liverpool": "Liverpool Third Kit 23/24"
+    },
+    "description": "Official {{team}} jersey for the 2023/24 season"
+  },
+  "womens": {
+    "title": "Womens t-shirts",
+    "products": {
+      "manchester_united": "Manchester United Home Kit 23/24",
+      "real_madrid": "Real Madrid Away Kit 23/24",
+      "barcelona": "Barcelona Third Kit 23/24",
+      "bayern": "Bayern Munich Home Kit 23/24",
+      "psg": "PSG Away Kit 23/24",
+      "liverpool": "Liverpool Third Kit 23/24"
+    },
+    "description": "Official {{team}} women's jersey for the 2023/24 season"
+  },
+  "user_menu": {
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "bet_block": {
+    "current_bet": "Current Bet",
+    "first_bet": "Starting Bet",
+    "no_bets_yet": "No bets yet. This could be your first.",
+    "place_bet": "PLACE BET",
+    "bet_amount_placeholder": "{{amount}} ₽",
+    "validation": {
+      "amount_required": "Bet amount is required",
+      "amount_min": "Bet amount must be greater than {{min}}",
+      "amount_max": "Bet amount cannot exceed {{max}}",
+      "amount_positive": "Bet amount must be positive"
+    }
+  },
+  "bet_modals": {
+    "place_bet_title": "PLACE BET",
+    "confirm_bet_title": "Confirm BET",
+    "bet_success_title": "BET ACCEPTED",
+    "current_bet_label": "current bet",
+    "next_min_bet": "Next min. bet {{amount}} ₽",
+    "time_left": "Time left",
+    "auction_end": "Auction ends:",
+    "bet_options": "BET OPTIONS",
+    "total_to_pay": "TOTAL TO PAY: {{amount}} ₽",
+    "cost_includes": "Includes VAT, premium packaging, NFC chips and service fee",
+    "delivery_cost": "Estimated delivery cost",
+    "premium_packaging": "Premium packaging",
+    "vat": "VAT",
+    "nfc_chip": "NFC chip",
+    "service_fee": "Service fee (10%)",
+    "total": "Total to pay",
+    "final_cost_note": "Final cost is calculated when placing the order",
+    "bet_confirmation_text": "You are about to place a bet of {{amount}} ₽. All bets are irrevocable. A bet placed within the last 3 minutes of the auction automatically resets the time to 3 minutes, thereby extending the duration of the auction. If you place a bet, this confirms that you are eighteen years old or older and agree to all our terms and conditions. If you manage to make the final bet, you are obligated to purchase the item.",
+    "auction_rules_consent": "I agree to the <link>auction rules</link>",
+    "agree_to_bet": "i agree to place bet",
+    "success_title": "SUCCESS! YOU PLACED A BET",
+    "success_message": "For {{amount}} ₽ on {{productName}}",
+    "continue_shopping": "CONTINUE SHOPPING",
+    "test_card_title": "Card Details (Testing)",
+    "card_number": "Card Number",
+    "card_number_placeholder": "0000 0000 0000 0000",
+    "card_holder": "Card Holder",
+    "card_holder_placeholder": "John Doe",
+    "expiry_date": "Expiry Date",
+    "expiry_placeholder": "MM/YY",
+    "cvv": "CVV",
+    "cvv_placeholder": "123",
+    "tbank_form_notice": "Payment via official T-Bank form",
+    "tbank_form_notice_detail": "You will be redirected to secure bank payment form",
+    "auth_required_title": "Authorization Required",
+    "auth_required_message": "You need to log in or register to participate in the auction.",
+    "login_button": "Login",
+    "register_button": "Register",
+    "verification_required_title": "Verification Required",
+    "verification_required_message": "You need to complete all 4 verification steps to participate in the auction. Completed: {{completed}} out of 4 steps.",
+    "go_to_verification": "Go to Verification",
+    "login_required": "Login required",
+    "verification_required": "Verification required",
+    "processing_payment": "Processing payment...",
+    "payment_error": "Payment Error",
+    "payment_error_details": "Failed to process payment: {{error}}",
+    "payment_steps": {
+      "initiating": "Initiating payment...",
+      "checking_3ds": "Checking 3DS version...",
+      "confirming": "Confirming payment...",
+      "checking_status": "Checking payment status...",
+      "redirecting": "Redirecting to payment form..."
+    },
+    "validation": {
+      "agree_to_marketing": "I agree to receive marketing information (optional)."
+    },
+    "default_bid_message": "Bid through auction",
+    "bid_placed_success": "Bid placed successfully",
+    "bid_placement_error": "Error placing bid",
+    "placing_bid": "Placing bid..."
+  },
+  "time": {
+    "days_short": "d",
+    "hours_short": "h",
+    "minutes_short": "min",
+    "seconds_short": "sec"
+  },
+  "profile": {
+    "account_info": "Account Information",
+    "auth_provider": "Authentication Provider",
+    "gender": "Gender",
+    "genders": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "title": "MY ACCOUNT",
+    "user_name": "John",
+    "bet_limit": "Bet limit: 0 ₽",
+    "navigation": {
+      "my_bets": "My Bets",
+      "my_orders": "My Orders",
+      "my_addresses": "My Addresses",
+      "payment_methods": "Payment Methods",
+      "promo_codes": "Promo Codes",
+      "favorite_teams": "Favorite Teams and Athletes",
+      "my_wishlist": "My Wishlist",
+      "support": "Support",
+      "logout": "Logout",
+      "menu": "My Profile",
+      "close_menu": "Close Menu",
+      "notifications": "Notifications"
+    },
+    "stats": {
+      "won_items": "Won Items",
+      "auction_items": "Auction Items",
+      "placed_bets": "Placed Bets"
+    },
+    "my_bets": {
+      "tabs": {
+        "for_sale": "For Sale",
+        "won": "Won",
+        "completed": "Completed"
+      },
+      "status": {
+        "active": "Bet Active",
+        "outbid": "Your Bet Was Outbid",
+        "won": "You Won",
+        "cancelled": "Cancelled"
+      },
+      "current_bet": "Current Bet",
+      "your_bet": "your bet",
+      "your_bid": "Your Bet:",
+      "bet_from": "bet from",
+      "loading": "Loading bets...",
+      "no_bets": "You have no bets",
+      "no_bets_desc": "Start placing bets on items you're interested in"
+    },
+    "verification": {
+      "confirm_phone": "Confirm your phone number",
+      "confirm_email": "Confirm your email address",
+      "email_verification_description": "Verify your email address to start using the service",
+      "step3_title": "Add delivery address",
+      "step3_description": "Provide your address for product delivery",
+      "step4_title": "Add payment method",
+      "step4_description": "Choose your preferred payment method",
+      "completed": "Verification completed",
+      "completed_description": "Congratulations! You have successfully completed all verification steps",
+      "verification_complete": "VERIFICATION COMPLETE",
+      "max_bet_description": "The maximum bet you can place at the moment is 0 ₽",
+      "continue_verification": "CONTINUE VERIFICATION"
+    },
+    "wishlist": {
+      "title": "My Wishlist",
+      "product_name": "Product Name",
+      "view_all": "VIEW ALL WISHLIST",
+      "loading": "Loading your favorite items...",
+      "empty": "Your wishlist is empty",
+      "empty_desc": "Add items to favorites so you don't lose them",
+      "continue_shopping": "Continue Shopping",
+      "add_to_cart": "Add to Cart",
+      "remove": "Remove",
+      "out_of_stock": "Out of stock",
+      "sync_title": "Synchronization",
+      "sync_desc": "Your wishlist is synchronized across all devices"
+    },
+    "edit_personal_info": {
+      "title": "Edit Personal Information",
+      "description": "Update your first name, last name, middle name, date of birth or gender",
+      "first_name": "First Name",
+      "first_name_placeholder": "Enter your first name",
+      "last_name": "Last Name",
+      "last_name_placeholder": "Enter your last name",
+      "middle_name": "Middle Name",
+      "middle_name_placeholder": "Enter your middle name",
+      "date_of_birth": "Date of Birth",
+      "gender": "Gender",
+      "gender_male": "Male",
+      "gender_female": "Female",
+      "save": "Save"
+    },
+    "details": {
+      "title": "Details",
+      "name": "Name",
+      "date_of_birth": "Date of Birth",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "edit": "Edit",
+      "not_specified": "Not specified"
+    },
+    "credentials": {
+      "title": "Login and Password",
+      "email": "Email",
+      "password": "Password",
+      "edit": "Edit"
+    },
+    "address": {
+      "title": "Delivery Address",
+      "street": "Street",
+      "city": "City",
+      "postal_code": "Postal Code",
+      "country": "Country",
+      "edit": "Edit",
+      "add": "Add Address"
+    },
+    "addresses": {
+      "title": "My Addresses",
+      "add_new": "Add New",
+      "add_address": "Add Address",
+      "edit_address": "Edit Address",
+      "default": "Default",
+      "set_default": "Set as Default",
+      "edit": "Edit",
+      "delete": "Delete",
+      "confirm_delete": "Are you sure you want to delete this address?",
+      "no_addresses": "You have no addresses",
+      "no_addresses_desc": "Add an address for delivery of your orders",
+      "name": "Address Name",
+      "name_placeholder": "e.g. Home, Work",
+      "street": "Street and House",
+      "street_placeholder": "Street, house, apartment",
+      "city": "City",
+      "city_placeholder": "Enter city",
+      "country": "Country",
+      "country_placeholder": "Enter country",
+      "postal_code": "Postal Code",
+      "postal_code_placeholder": "123456",
+      "save_changes": "Save Changes",
+      "set_as_default": "Set as Default Address",
+      "errors": {
+        "name_min_length": "Address name must be at least 2 characters long",
+        "name_max_length": "Address name must not exceed 50 characters",
+        "street_min_length": "Address must be at least 5 characters long",
+        "street_max_length": "Address must not exceed 200 characters",
+        "city_min_length": "City name must be at least 2 characters long",
+        "city_max_length": "City name must not exceed 100 characters",
+        "country_min_length": "Country name must be at least 2 characters long",
+        "country_max_length": "Country name must not exceed 100 characters",
+        "postal_code_format": "Invalid postal code format (6 digits)"
+      }
+    },
+    "payment": {
+      "title": "Payment Method",
+      "type": "Type",
+      "card_number": "Card Number",
+      "card_holder": "Card Holder",
+      "expiry_date": "Expiry Date",
+      "edit": "Edit"
+    },
+    "payment_method": {
+      "add_title": "Add Payment Method",
+      "edit_title": "Edit Payment Method",
+      "type": "Payment Type",
+      "types": {
+        "card": "Bank Card",
+        "paypal": "PayPal",
+        "apple_pay": "Apple Pay",
+        "google_pay": "Google Pay"
+      },
+      "card_number": "Card Number",
+      "card_holder_name": "Card Holder Name",
+      "card_holder_placeholder": "Enter name as on card",
+      "expiry_date": "Expiry Date",
+      "other_payment_info": "This payment method will be configured on first purchase",
+      "tbank_cards": "Linked Cards",
+      "attach_new_card": "Link New Card",
+      "attaching_card": "Linking card...",
+      "or": "or",
+      "remove": "Remove",
+      "save": "Save",
+      "saving": "Saving...",
+      "tbank_title": "Manage Cards",
+      "close": "Close",
+      "select_card": "Select Card",
+      "no_cards": "No cards linked",
+      "add_card_hint": "Add a card to make purchases",
+      "tbank_info_title": "Payment Security",
+      "tbank_info_text": "Cards are linked through T-Bank secure system. Card data is not stored on our servers.",
+      "card_consent": "I consent to the storage of card data",
+      "auction_payment_info": "In case of auction victory, the total order amount including lot, commission and delivery will be automatically charged if you don't make payment manually within 24 hours.",
+      "hold_info": "When linking a card, a hold of 11 rubles will be made, which will be immediately canceled after successful linking.",
+      "security_info": "All card data is protected and processed through secure communication channels.",
+      "validation": {
+        "card_number_required": "Card number is required",
+        "card_number_invalid": "Enter a valid card number (16 digits)",
+        "card_holder_required": "Card holder name is required",
+        "card_holder_min_length": "Name must contain at least 2 characters",
+        "expiry_date_required": "Card expiry date is required",
+        "expiry_date_invalid": "Enter expiry date in MM/YY format"
+      }
+    },
+    "edit_contact_info": {
+      "title": "Edit Contact Information",
+      "email": "Email",
+      "email_tooltip": "Contact support to change this",
+      "phone": "Phone",
+      "phone_tooltip": "Contact support to change this",
+      "change_password": "Change Password",
+      "old_password": "Current Password",
+      "old_password_placeholder": "Enter current password",
+      "new_password": "New Password",
+      "new_password_placeholder": "Enter new password",
+      "confirm_password": "Confirm New Password",
+      "confirm_password_placeholder": "Confirm new password",
+      "save": "Save"
+    },
+    "two_factor_auth": {
+      "title": "Two-Factor Authentication (2FA)",
+      "subtitle": "Add an extra layer of security to your account",
+      "description": "2FA requires an additional code from your phone when logging into your account. This protects your account even if someone knows your password.",
+      "status_enabled": "Enabled",
+      "status_disabled": "Disabled",
+      "enable_button": "Enable 2FA",
+      "disable_button": "Disable 2FA",
+      "setup_title": "Setting up Two-Factor Authentication",
+      "setup_step1": "Step 1: Download an authenticator app",
+      "setup_step1_description": "Install one of these apps on your phone:",
+      "setup_apps": {
+        "google_auth": "Google Authenticator",
+        "authy": "Authy",
+        "microsoft_auth": "Microsoft Authenticator"
+      },
+      "setup_step2": "Step 2: Scan the QR code",
+      "setup_step2_description": "Open the app and scan this QR code:",
+      "setup_step3": "Step 3: Enter verification code",
+      "setup_step3_description": "Enter the 6-digit code from your app:",
+      "verification_code": "Verification Code",
+      "verification_code_placeholder": "000000",
+      "verification_code_error": "Code must contain at least 6 characters",
+      "manual_entry": "Enter code manually",
+      "manual_entry_description": "If you can't scan the QR code, enter this key manually:",
+      "backup_codes_title": "Backup Codes",
+      "backup_codes_description": "Save these codes in a safe place. You can use any of them instead of the app code:",
+      "backup_codes_warning": "Each code can only be used once",
+      "backup_codes_regenerate": "Generate new codes",
+      "backup_codes_download": "Download codes",
+      "backup_codes_print": "Print codes",
+      "disable_title": "Disable Two-Factor Authentication",
+      "disable_description": "Enter a code from your authenticator app to disable 2FA:",
+      "disable_warning": "Warning: disabling 2FA will reduce your account security",
+      "regenerate_title": "Generate New Backup Codes",
+      "regenerate_description": "Enter a code from your authenticator app to generate new backup codes:",
+      "regenerate_warning": "Old backup codes will stop working",
+      "confirm": "Confirm",
+      "close": "Close"
+    },
+    "favorite_teams": {
+      "title": "Favorite Teams and Athletes",
+      "search_placeholder": "Search teams and athletes...",
+      "teams_section": "Favorite Teams",
+      "athletes_section": "Favorite Athletes",
+      "add_team": "Add Team",
+      "add_athlete": "Add Athlete",
+      "remove": "Remove",
+      "no_teams": "You don't have any favorite teams yet",
+      "no_athletes": "You don't have any favorite athletes yet"
+    },
+    "promo_codes": {
+      "title": "Promo Codes",
+      "activate": "Use promo code",
+      "enter_code": "Enter promo code",
+      "apply": "Apply",
+      "activated_success": "Promo code activated successfully!",
+      "not_found": "Promo code not found",
+      "already_used": "Promo code already used",
+      "limit_exceeded": "Promo code no longer available",
+      "valid": "Promo code is valid",
+      "created_success": "Promo code created successfully",
+      "code_exists": "Promo code with this code already exists",
+      "used": "Used",
+      "valid_until": "Valid until",
+      "copy": "Copy",
+      "no_codes": "You don't have any promo codes yet",
+      "no_codes_desc": "Activate promo codes to get discounts on orders",
+      "info_title": "How to use promo code?",
+      "info_desc": "Enter the code in the field above and click \"Apply\". The discount will be automatically applied to your orders.",
+      "table": {
+        "code": "Code",
+        "discount": "Discount",
+        "description": "Description",
+        "used_at": "Date Used",
+        "status": "Status"
+      }
+    },
+    "contact_info": {
+      "title": "Contact Information",
+      "phone": "Phone",
+      "edit": "Edit"
+    },
+    "payment_methods": {
+      "title": "Payment Methods",
+      "add_new": "Add New",
+      "no_methods": "You have no linked payment methods",
+      "no_methods_desc": "Add a payment method to make purchases",
+      "set_default": "Set as Default",
+      "default": "Default",
+      "edit": "Edit",
+      "delete": "Delete",
+      "expires": "Expires",
+      "status_active": "Active",
+      "security_title": "Payment Security",
+      "security_desc": "All card data is securely protected and processed through secure communication channels"
+    },
+    "orders": {
+      "all": "All",
+      "paid": "Paid",
+      "unpaid": "Unpaid",
+      "active": "Active",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "order": "Order",
+      "items": "Items",
+      "shipping_address": "Shipping Address",
+      "payment_method": "Payment Method",
+      "total": "Total",
+      "track": "Track",
+      "pay": "Pay",
+      "reorder": "Reorder",
+      "tracking_number": "Tracking Number",
+      "no_orders": "You have no orders",
+      "no_orders_title": "No orders",
+      "no_orders_desc": "You don't have any orders yet",
+      "go_shopping": "Go shopping",
+      "status": {
+        "waiting_payment": "Waiting for payment",
+        "waiting_confirmation": "Waiting for confirmation",
+        "in_assembly": "In assembly",
+        "in_delivery": "In delivery",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      }
+    }
+  },
+  "productCard": {
+    "expired": "Expired",
+    "timeLeft": "{{days}}d {{hours}}h {{minutes}}m {{seconds}}s left",
+    "bid": "CURRENT BID",
+    "back": "Back",
+    "notFound": "Product not found",
+    "bidNow": "Place a bid",
+    "latestBids": "Latest Bids",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "shipping": "Shipping",
+    "shippedFrom": "Shipped from",
+    "estimatedDelivery": "Estimated delivery",
+    "estimatedShippingCost": "Estimated shipping cost",
+    "shippingInfo": "Shipping info",
+    "showMoreInfo": "Show more",
+    "showLessInfo": "Show less",
+    "whereMoneyGoes": "Where the money goes",
+    "framingService": "Framing Service",
+    "authentication": "Authentication",
+    "priceNotAvailable": "Price to be determined"
+  },
+  "auth": {
+    "registration_success": "Registration completed successfully",
+    "login_success": "Login successful",
+    "logout_success": "Logout successful",
+    "password_reset_success": "Password changed successfully",
+    "two_factor_required": "Two-factor authentication code required",
+    "invalid_two_factor_code": "Invalid two-factor authentication code",
+    "2fa_already_enabled": "2FA is already enabled",
+    "2fa_setup_expired": "2FA setup session expired",
+    "2fa_enabled_success": "2FA successfully enabled",
+    "2fa_disabled_success": "2FA successfully disabled",
+    "backup_codes_regenerated": "Backup codes successfully updated",
+    "password_changed_success": "Password successfully changed",
+    "invalid_verification_code": "Invalid verification code",
+    "login_required_for_favorites": "To add items to favorites, please register or log in to your account."
+  },
+  "errors": {
+    "validation": "Validation error",
+    "registration": "Registration error",
+    "email_confirmation": "Email confirmation error",
+    "code_resend": "Code resend error",
+    "login": "Login error",
+    "password_reset_request": "Password reset request error",
+    "password_reset": "Password reset error",
+    "user_not_found": "User not found",
+    "user_not_found_get_code": "User not found. Please get verification code first",
+    "invalid_or_expired_token": "Invalid or expired token",
+    "invalid_or_expired_code": "Invalid or expired verification code",
+    "email_already_verified": "Email already verified",
+    "email_verified_success": "Email verified successfully",
+    "code_sent_again": "Verification code sent again",
+    "user_already_exists": "User with this email already exists",
+    "code_sent_to_email": "Verification code sent to your email",
+    "password_reset_code_sent": "Password reset code sent to email",
+    "password_reset_success": "Password changed successfully",
+    "email_not_verified": "Email not verified",
+    "account_not_email_based": "Account created via social network (not email-based)",
+    "failed_to_send_code": "Failed to send verification code",
+    "failed_to_send_reset_code": "Failed to send password reset code",
+    "invalid_credentials": "Invalid credentials",
+    "server_error": "Internal server error",
+    "user_not_verified_error": "User is not verified",
+    "checkout_no_items_in_cart_error": "Cart is empty",
+    "checkout_bid_no_stock_available": "Item sold out",
+    "can_buy_only_fixed_price_items": "Can buy only items with fixed price",
+    "cart_cant_remove_more_items_from_cart_than_it_has": "Can not remove more items from cart that it has",
+    "size_out_of_stock": "This size is out of stock",
+    "not_enough_stock_to_buy": "Not enough stock of this size to buy",
+    "unknown_size": "No such size found",
+    "access_denied": "Access denied",
+    "invalid_phone": "Enter a valid Russian phone number",
+    "phone_required": "Phone number is required",
+    "phone_invalid_format": "Invalid Russian phone number format",
+    "code_required": "Code is required",
+    "code_length": "Code must contain 4 digits",
+    "code_digits_only": "Code must contain only digits",
+    "address_required": "Address is required",
+    "address_min_length": "Address must contain at least 10 characters",
+    "address_max_length": "Address is too long",
+    "address_invalid_chars": "Address contains invalid characters",
+    "payment_method_required": "Select payment method",
+    "payment_method_invalid": "Invalid payment method",
+    "phone_and_code_required": "Phone number and code are required",
+    "verification_error": "Phone verification error",
+    "cannot_delete_yourself": "Cannot delete yourself",
+    "name_required": "Name is required",
+    "name_min_length": "Name must contain at least 2 characters",
+    "name_max_length": "Name must not exceed 50 characters",
+    "name_length": "Name must contain from 2 to 50 characters",
+    "name_min_max_length": "Name must contain from 2 to 50 characters",
+    "name_invalid_characters": "Name can only contain letters, spaces, hyphens and apostrophes",
+    "date_of_birth_required": "Date of birth is required",
+    "date_of_birth_invalid": "Age must be between 13 and 100 years",
+    "at_least_one_field": "Fill in at least one field",
+    "at_least_one_field_required": "Fill in at least one field",
+    "update_failed": "Failed to update data",
+    "network_error": "Network error. Please try again",
+    "authentication_required": "Authentication required",
+    "unauthorized": "Authorization required",
+    "old_password_required": "Current password is required",
+    "new_password_min_length": "New password must contain at least 8 characters",
+    "new_password_requirements": "Password must contain uppercase letter, lowercase letter and digit",
+    "confirm_password_required": "Password confirmation is required",
+    "passwords_not_match": "Passwords do not match",
+    "invalid_old_password": "Invalid current password",
+    "no_password_set": "User has no password set",
+    "same_password": "New password must be different from current password",
+    "all_password_fields_required": "Fill in all fields to change password",
+    "not_authenticated": "Authentication required",
+    "invalid_code": "Invalid verification code",
+    "verification_failed": "Verification failed. Please try again",
+    "phone_verification_not_allowed": "Phone verification is only allowed through dedicated endpoint",
+    "no_data": "No Data to Verify",
+    "invalid_link": "Invalid authentication link",
+    "no_data_description": "The link does not contain the necessary data for authenticity verification.",
+    "error_item_not_found": "Item not found in database",
+    "error_codes_mismatch": "Authentication codes mismatch",
+    "support_message": "If you have any questions, contact our support:",
+    "first_name_length": "First name must be between 2 and 30 characters",
+    "first_name_invalid_characters": "First name can contain only letters, spaces, hyphens and apostrophes",
+    "last_name_length": "Last name must be between 2 and 30 characters",
+    "last_name_invalid_characters": "Last name can contain only letters, spaces, hyphens and apostrophes",
+    "middle_name_length": "Middle name must be between 2 and 30 characters",
+    "middle_name_invalid_characters": "Middle name can contain only letters, spaces, hyphens and apostrophes"
+  },
+  "private": {
+    "title": "MY ACCOUNT",
+    "user_name": "John",
+    "bet_limit": "Bet limit: 0 ₽",
+    "navigation": {
+      "my_bets": "My Bets",
+      "my_orders": "My Orders",
+      "my_addresses": "My Addresses",
+      "payment_methods": "Payment Methods",
+      "promo_codes": "Promo Codes",
+      "favorite_teams": "Favorite Teams and Athletes",
+      "my_wishlist": "My Wishlist",
+      "support": "Support",
+      "logout": "Logout"
+    },
+    "stats": {
+      "won_items": "Won Items",
+      "auction_items": "Auction Items",
+      "placed_bets": "Placed Bets"
+    },
+    "verification": {
+      "confirm_phone": "Confirm your phone number",
+      "max_bet_description": "The maximum bet you can place at the moment is 0 ₽",
+      "continue_verification": "CONTINUE VERIFICATION"
+    },
+    "wishlist": {
+      "title": "My Wishlist",
+      "product_name": "Product Name",
+      "view_all": "VIEW ALL WISHLIST"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "back": "Back",
+    "like": "Add to favorites",
+    "unlike": "Remove from favorites",
+    "copy": "Copy",
+    "copy_link": "Copy Link",
+    "open_link": "Open Link",
+    "optional": "optional",
+    "cancel": "Cancel",
+    "create": "Create",
+    "creating": "Creating...",
+    "update": "Update",
+    "updating": "Updating...",
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "all": "All",
+    "close": "Close",
+    "image": "Image"
+  },
+  "verification_dialog": {
+    "title": "Verification",
+    "account_title": "Account Verification",
+    "step_progress": "Step {{step}} of 4",
+    "description": "Please fill out the following information so we can get started",
+    "step_completed_title": "This step is already completed",
+    "step_completed_description": "You have already successfully completed this verification step",
+    "email_already_verified": "Your email is already verified",
+    "steps": {
+      "1": {
+        "title": "Confirm email address",
+        "description": "Get email with verification code"
+      },
+      "2": {
+        "title": "Confirm phone number",
+        "description": "Get verification code"
+      },
+      "3": {
+        "title": "Add address",
+        "description": "Provide your delivery address"
+      },
+      "4": {
+        "title": "Add payment method",
+        "description": "Confirm your account"
+      }
+    },
+    "buttons": {
+      "continue": "CONTINUE",
+      "back": "BACK",
+      "finish": "FINISH",
+      "loading": "Loading...",
+      "send_code": "SEND CODE",
+      "sending": "Sending..."
+    },
+    "step_1": {
+      "title": "Confirm email address",
+      "description": "We sent verification code to {{email}}",
+      "placeholder": "Enter code"
+    },
+    "step_2": {
+      "title": "Confirm phone number",
+      "description_enter": "Enter your phone number to receive verification code",
+      "description_code": "Enter code sent to {{phone}}",
+      "phone_placeholder": "+1 (___) ___-____",
+      "code_placeholder": "0000"
+    },
+    "step_3": {
+      "title": "Add delivery address",
+      "description": "Provide your address for product delivery",
+      "placeholder": "Enter full address",
+      "manual_input": "Enter address manually",
+      "use_search": "← Use address search",
+      "map_preview": "Map preview",
+      "auto_fill_hint": "Other fields will be filled automatically when selecting an address",
+      "fields": {
+        "name": "Address name",
+        "name_placeholder": "Main address",
+        "street": "Street and house number",
+        "street_placeholder": "123 Main St",
+        "apartment_number": "Apartment",
+        "apartment_number_placeholder": "5",
+        "city": "City",
+        "city_placeholder": "Moscow",
+        "country": "Country",
+        "country_placeholder": "Russia",
+        "postal_code": "Postal Code",
+        "postal_code_placeholder": "125009"
+      }
+    },
+    "step_4": {
+      "title": "Add payment method",
+      "description": "Choose your preferred payment method",
+      "select_placeholder": "Select payment method",
+      "select_card": "Select a card for payment",
+      "no_cards": "No cards linked",
+      "add_card_hint": "Add a card to complete verification",
+      "info_title": "Payment Security",
+      "info_text": "To complete verification, you need to link a card. Card data is not stored on our servers.",
+      "auction_payment_info": "In case of auction victory, the total order amount including lot, commission and delivery will be automatically charged if you don't make payment manually within 24 hours.",
+      "hold_info": "When linking a card, a hold of 11 rubles will be made, which will be immediately canceled after successful linking.",
+      "security_info": "All card data is protected and processed through secure communication channels.",
+      "payment_methods": {
+        "card": "Bank Card",
+        "paypal": "PayPal",
+        "apple_pay": "Apple Pay",
+        "google_pay": "Google Pay"
+      }
+    },
+    "errors": {
+      "invalid_phone": "Enter a valid Russian phone number",
+      "name_required": "Please enter address name",
+      "name_min_length": "Address name must be at least 2 characters long",
+      "name_max_length": "Address name must not exceed 100 characters",
+      "street_required": "Please enter street and house number",
+      "street_min_length": "Address must be at least 5 characters long",
+      "street_max_length": "Address must not exceed 200 characters",
+      "apartment_number_max_length": "Apartment number must not exceed 20 characters",
+      "city_required": "Please enter city",
+      "city_min_length": "City name must be at least 2 characters long",
+      "city_max_length": "City name must not exceed 100 characters",
+      "country_required": "Please enter country",
+      "country_min_length": "Country name must be at least 2 characters long",
+      "country_max_length": "Country name must not exceed 100 characters",
+      "postal_code_required": "Please enter postal code",
+      "postal_code_format": "Invalid postal code format",
+      "address_invalid_chars": "Address contains invalid characters"
+    }
+  },
+  "verification": {
+    "step_saved_success": "Step {{step}} saved successfully",
+    "code_sent": "Code sent to the specified number",
+    "phone_verified_success": "Phone number verified successfully"
+  },
+  "user": {
+    "personal_info_updated": "Personal information updated successfully",
+    "password_changed": "Password changed successfully"
+  },
+  "notifications": {
+    "success": {
+      "personal_info_updated": "Personal information updated",
+      "password_changed": "Password changed successfully",
+      "payment_method_updated": "Payment method updated",
+      "card_removed": "Card removed successfully",
+      "cards_synced": "Cards synchronized",
+      "card_attached": "Card attached successfully",
+      "login_success": "Welcome!",
+      "registration_success": "Account created successfully",
+      "code_sent": "Verification code sent",
+      "password_reset_code_sent": "Password reset code sent"
+    },
+    "error": {
+      "personal_info_update_failed": "Failed to update personal information",
+      "password_change_failed": "Failed to change password",
+      "payment_method_update_failed": "Failed to update payment method",
+      "card_attachment_failed": "Failed to initiate card linking",
+      "card_removal_failed": "Failed to remove card",
+      "cards_sync_failed": "Failed to synchronize cards",
+      "hold_check_failed": "Failed to check attachment status",
+      "login_failed": "Login error",
+      "registration_failed": "Registration error",
+      "code_send_failed": "Failed to send code",
+      "network_error": "Network error. Please try again",
+      "security_error": "Security error during authorization",
+      "configuration_error": "Authorization configuration error"
+    }
+  },
+  "map": {
+    "loading": "Loading map...",
+    "error_loading": "Error loading Yandex Maps",
+    "address_not_found": "Address not found",
+    "display_error": "Map display error",
+    "check_address": "Check the correctness of the entered address"
+  },
+  "singleProduct": {
+    "accordions": {
+      "lastBets": "Latest bets",
+      "showAllBets": "view all {{count}} bets",
+      "details": "details",
+      "moreDetails": "MORE DETAILS"
+    },
+    "delivery": {
+      "title": "delivery",
+      "from": "Shipped from: Moscow",
+      "estimatedDate": "Estimated delivery date: Mon, March 24 — Wed, March 26",
+      "estimatedCost": "Estimated shipping cost: 400 ₽",
+      "moreInfo": "MORE ABOUT DELIVERY",
+      "hide": "Hide"
+    },
+    "infoBlocks": {
+      "packaging": {
+        "title": "PACKAGING",
+        "description": "Standard packaging",
+        "details": "Each item is delivered in a branded box with Fan's Dream logo. Safe, stylish, free",
+        "included": "Included in price",
+        "moreInfo": "MORE ABOUT PACKAGING"
+      },
+      "design": {
+        "title": "Design",
+        "moreInfo": "MORE ABOUT DESIGN"
+      },
+      "authentication": {
+        "title": "AUTHENTICITY CERTIFICATE",
+        "description": "We provide a certificate of authenticity (CoA) for each item, which specifies match details. In addition, we embed NFC chips — a modern solution that 100% confirms the authenticity of goods",
+        "moreInfo": "MORE ABOUT AUTHENTICITY"
+      },
+      "charity": {
+        "title": "CHARITY",
+        "description": "We help legends earn additional income from selling signed merchandise, and also regularly donate 5% of merchandise sales and hold charity auctions.",
+        "moreInfo": "MORE ABOUT CHARITY"
+      }
+    },
+    "team": {
+      "name": "SPARTAK",
+      "viewAllProducts": "VIEW ALL CLUB PRODUCTS",
+      "officialPartner": "Official partner of football club «Name»"
+    },
+    "status": {
+      "worn": "WORN",
+      "signed": "WITH SIGNATURE",
+      "played": "played at Olympics 2006"
+    },
+    "description": "It was in this shirt that the captain of «Spartak» scored the winning goal in the derby, which became a symbol of the red-white era. The fabric still holds traces of grass from «Luzhniki» and traces of triumph.",
+    "addToCart": "add to cart",
+    "carousels": {
+      "youMayLike": "you may like:",
+      "recentlyViewed": "RECENTLY VIEWED:"
+    },
+    "bets": {
+      "user": "User",
+      "bet": "bet",
+      "date": "date"
+    },
+    "details": {
+      "date": "date",
+      "size": "size",
+      "team": "team",
+      "club": "club",
+      "description": "description",
+      "price": "price"
+    }
+  },
+  "bets": {
+    "title": "My Bets",
+    "table": {
+      "product": "Product",
+      "amount": "Bet Amount",
+      "type": "Type",
+      "status": "Status",
+      "placed_at": "Date Placed",
+      "current_bid": "Current Bid",
+      "end_time": "End Time"
+    },
+    "status": {
+      "active": "Active",
+      "won": "Won",
+      "lost": "Lost",
+      "cancelled": "Cancelled",
+      "pending": "Pending"
+    },
+    "type": {
+      "auction": "Auction",
+      "instant_buy": "Instant Buy",
+      "reserve": "Reserve"
+    },
+    "filters": {
+      "title": "Filters",
+      "status": "Status",
+      "type": "Type",
+      "date_from": "Date From",
+      "date_to": "Date To",
+      "all_statuses": "All Statuses",
+      "all_types": "All Types",
+      "apply": "Apply",
+      "reset": "Reset"
+    },
+    "no_bets": "You have no bets",
+    "error": "Error loading bets"
+  },
+  "footer": {
+    "company": {
+      "name": "FAN'S DREAM",
+      "about": "About us",
+      "purchase_process": "Purchase process",
+      "packaging": "Packaging",
+      "authenticate": "Authentication",
+      "delivery": "Delivery"
+    },
+    "partnerships": {
+      "title": "PARTNERSHIPS",
+      "official_partners": "Official partners",
+      "become_partner": "Become a partner",
+      "become_partner_subtitle": "(for clubs and athletes)",
+      "wholesale": "Wholesale purchases"
+    },
+    "support": {
+      "title": "SUPPORT",
+      "faq": "FAQ",
+      "contact": "Contact form",
+      "email": "Email"
+    },
+    "framing": {
+      "title": "FRAMING",
+      "baguette": "Baguette framing",
+      "acrylic": "Acrylic framing"
+    },
+    "social": {
+      "title": "FOLLOW US",
+      "vk": "VKontakte",
+      "telegram": "Telegram",
+      "instagram": "Instagram"
+    },
+    "newsletter": {
+      "title": "Subscribe to our newsletter to stay updated on new arrivals and updates",
+      "privacy_text": "By subscribing, you agree to our",
+      "privacy_link": "Privacy Policy",
+      "privacy_consent": "and consent to receiving updates",
+      "email_placeholder": "Enter your email",
+      "subscribe_button": "SUBSCRIBE"
+    },
+    "legal": {
+      "copyright": "© {{year}} Fan's Dream. All rights reserved.",
+      "privacy_policy": "Privacy Policy",
+      "auction_rules": "Auction Rules",
+      "offer": "Public Offer"
+    }
+  },
+  "teams": {
+    "title": "Teams",
+    "not_found": "Team not found",
+    "loading": "Loading team...",
+    "info": {
+      "country": "Country",
+      "city": "City",
+      "stadium": "Stadium",
+      "established": "Established",
+      "players_count": "Players in team"
+    },
+    "items": {
+      "title": "Team Items",
+      "no_items": "No items available for this team yet",
+      "loading": "Loading items...",
+      "no_items_description": "Items for this team will appear in our catalog soon"
+    },
+    "players": {
+      "title": "Team Players",
+      "all_players": "All players",
+      "view_player": "View player",
+      "no_players": "The team has no players yet"
+    }
+  },
+  "players": {
+    "title": "Players",
+    "not_found": "Player not found",
+    "loading": "Loading player...",
+    "info": {
+      "position": "Position",
+      "number": "Number",
+      "birth_date": "Birth Date",
+      "birth_place": "Birth Place",
+      "team_location": "Team Location"
+    },
+    "team": {
+      "title": "Team",
+      "no_team": "No team specified",
+      "go_to_team": "Go to team"
+    },
+    "items": {
+      "title": "Player Items",
+      "loading": "Loading items...",
+      "no_items": "No items",
+      "no_items_description": "This player's items will appear in our catalog soon"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Wanted relics are now yours",
+      "list": {
+        "rare_jerseys": "Rare jerseys from the field",
+        "autographs": "Autographs you've been looking for on Avito for years",
+        "services": "Services available only through «friends»"
+      },
+      "description": "Now everything is here — legally, safely, and with a guarantee of authenticity",
+      "cta": "Go to the catalog"
+    }
+  },
+  "become_part": {
+    "title": "BECOME PART OF THE GAME",
+    "categories": {
+      "game_items": "Game items from the field",
+      "autographed_items": "Items with autographs",
+      "collectible_finds": "Collectible finds",
+      "game_items_subtitle": "Game items that were used by athletes during official matches",
+      "autographed_items_subtitle": "Items with athlete signatures. Guarantee of authenticity and history behind every autograph",
+      "collectible_finds_subtitle": "We don't guarantee authenticity, but we guarantee that every lot is unique and has its own story. All lots are carefully selected by our experts"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "welcome": "Welcome, {{name}}",
+    "back_to_profile": "Back to Profile",
+    "navigation": {
+      "dashboard": "Dashboard",
+      "users": "Users",
+      "promo_codes": "Promo Codes",
+      "products": "Products",
+      "sports": "Sports",
+      "item_types": "Product categories",
+      "teams": "Teams",
+      "players": "Players",
+      "events": "Events",
+      "orders": "Orders"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "System overview and recent events",
+      "stats": {
+        "total_users": "Total Users",
+        "total_products": "Total Products",
+        "total_orders": "Total Orders",
+        "revenue": "Revenue"
+      },
+      "recent_activity": "Recent Activity",
+      "quick_actions": "Quick Actions",
+      "activity": {
+        "user_registered": "New user registered: {{email}}",
+        "order_placed": "Order {{orderId}} placed for {{amount}}",
+        "product_added": "Product added: {{product}}",
+        "user_verified": "User verified: {{email}}"
+      },
+      "actions": {
+        "add_product": "Add Product",
+        "add_product_desc": "Create new product",
+        "view_orders": "View Orders",
+        "view_orders_desc": "Manage orders",
+        "manage_users": "Manage Users",
+        "manage_users_desc": "Edit users",
+        "view_analytics": "Analytics",
+        "view_analytics_desc": "View statistics"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "subtitle": "View and manage all system users",
+      "search_placeholder": "Search by email or name...",
+      "no_users_found": "No users found",
+      "filter": {
+        "all_roles": "All Roles",
+        "admin": "Administrators",
+        "user": "Users"
+      },
+      "table": {
+        "user": "User",
+        "role": "Role",
+        "verification": "Verification",
+        "auth_provider": "Auth Provider",
+        "created_at": "Registration Date",
+        "actions": "Actions"
+      },
+      "verification": {
+        "not_started": "Not Started",
+        "in_progress": "In Progress ({{steps}}/4)",
+        "completed": "Completed"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "stats": {
+        "total_users": "Total Users",
+        "verified_users": "Verified",
+        "admin_users": "Administrators"
+      },
+      "pagination": {
+        "showing": "Showing {{from}}-{{to}} of {{total}}",
+        "previous": "Previous",
+        "next": "Next",
+        "page_of": "{{current}} of {{total}}"
+      },
+      "confirm_delete": "Are you sure you want to delete this user?",
+      "error_loading": "Error loading users. Please try again later."
+    },
+    "sports": {
+      "title": "Sports Management",
+      "subtitle": "View and manage all sports",
+      "no_sports_found": "No sports found",
+      "table": {
+        "_id": "Sport ID",
+        "role": "Name",
+        "verification": "Description",
+        "created_at": "Creation Date",
+        "actions": "Actions"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "create_dialog": {
+        "title": "Create new sport",
+        "id": "Sport ID",
+        "name": "name",
+        "name_placeholder": "Football",
+        "description": "Description",
+        "description_placeholder": "Short description..."
+      },
+      "create_sport": "Add Sport",
+      "confirm_delete": "Are you sure you want to delete this sport?",
+      "error_loading": "Error loading sports. Please try again later."
+    },
+    "item_types": {
+      "title": "Item categories management",
+      "subtitle": "View and manage all item types categories",
+      "no_item_types_found": "No categories found",
+      "create_dialog": {
+        "title": "Create category",
+        "sport_id": "Sport ID",
+        "name": "Name",
+        "name_placeholder": "Shirt",
+        "description": "Description",
+        "description_placeholder": "short description..."
+      },
+      "delete_dialog": {
+        "delete_success": "Category was successfully deleted",
+        "title": "Delete category",
+        "text": "Are you sure you want to delete this category?"
+      },
+      "table": {
+        "_id": "ID",
+        "sport_id": "Sport ID",
+        "name": "name",
+        "description": "Description",
+        "created_at": "Creation Date",
+        "actions": "Actions"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "create_sport": "Create Category",
+      "error_loading": "Error loading categories. Please, try later"
+    },
+    "products": {
+      "title": "Product Management",
+      "subtitle": "View and manage product catalog",
+      "coming_soon": "Coming Soon",
+      "coming_soon_description": "Product management section is under development"
+    },
+    "orders": {
+      "title": "Order Management",
+      "subtitle": "View and process customer orders",
+      "no_orders_found": "No orders found",
+      "table": {
+        "_id": "Order ID",
+        "user_id": "User ID",
+        "status": "Status",
+        "amount": "Items Count",
+        "total": "Total",
+        "sales_method": "Sales Method",
+        "sales_method_fixed": "Fixed Price",
+        "sales_method_bidding": "Auction",
+        "address": "Delivery Address",
+        "payment_deadline": "Payment Deadline",
+        "created_at": "Created At",
+        "actions": "Actions"
+      },
+      "status": {
+        "waiting_payment": "Waiting for Payment",
+        "waiting_confirmation": "Waiting for Confirmation",
+        "in_assembly": "In Assembly",
+        "in_delivery": "In Delivery",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "actions": {
+        "view": "View",
+        "edit": "Edit",
+        "delete": "Delete",
+        "confirm": "Confirm",
+        "ship": "Ship",
+        "complete": "Complete",
+        "cancel": "Cancel"
+      },
+      "filter": {
+        "all_statuses": "All Statuses",
+        "waiting_payment": "Waiting for Payment",
+        "waiting_confirmation": "Waiting for Confirmation",
+        "in_assembly": "In Assembly",
+        "in_delivery": "In Delivery",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "stats": {
+        "total_orders": "Total Orders",
+        "waiting_payment": "Waiting for Payment",
+        "in_processing": "In Processing",
+        "completed": "Completed",
+        "total_revenue": "Total Revenue"
+      },
+      "error_loading": "Error loading orders. Please try again later.",
+      "view": {
+        "title": "View Order",
+        "subtitle": "Detailed order information",
+        "order_info": "Order Information",
+        "steps_title": "Current state",
+        "order_id": "Order ID",
+        "user_id": "User ID",
+        "sales_method": "Sales Method",
+        "created_at": "Created At",
+        "items": "Order Items",
+        "size": "Size",
+        "quantity": "Quantity",
+        "price": "Price",
+        "total_amount": "Total things",
+        "total": "Total",
+        "delivery_address": "Delivery Address",
+        "dates": "Dates",
+        "payment_deadline": "Payment Deadline",
+        "confirmed_at": "Confirmed",
+        "shipped_at": "Shipped",
+        "completed_at": "Completed",
+        "canceled_at": "Canceled",
+        "delivery_info": "Delivery Information",
+        "delivery_service": "Delivery Service",
+        "tracking_number": "Tracking Number",
+        "estimated_delivery": "Estimated Delivery",
+        "delivery_cost": "Delivery Cost",
+        "recipient_name": "Recipient Name",
+        "recipient_phone": "Recipient Phone",
+        "error_loading": "Error loading order. Please try again later."
+      }
+    },
+    "promo_codes": {
+      "title": "Promo Code Management",
+      "subtitle": "Create and manage promo codes",
+      "create_new": "Create Promo Code",
+      "table_title": "All Promo Codes",
+      "no_codes": "No promo codes yet",
+      "no_codes_desc": "Create your first promo code for customers",
+      "confirm_delete": "Are you sure you want to delete this promo code?",
+      "stats": {
+        "total_codes": "Total codes",
+        "active_codes": "Active",
+        "total_uses": "Total uses",
+        "expired_codes": "Expired"
+      },
+      "table": {
+        "code": "Code",
+        "discount": "Discount",
+        "description": "Description",
+        "uses": "Uses",
+        "valid_until": "Valid Until",
+        "status": "Status",
+        "created_at": "Created",
+        "actions": "Actions",
+        "delete": "Delete"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "expired": "Expired"
+      },
+      "create_dialog": {
+        "title": "Create New Promo Code",
+        "code": "Promo Code",
+        "discount": "Discount Percentage",
+        "description": "Description",
+        "description_placeholder": "Promo code description",
+        "valid_until": "Valid Until",
+        "max_uses": "Maximum Uses",
+        "max_uses_placeholder": "Unlimited",
+        "max_uses_hint": "Leave empty for unlimited uses",
+        "min_order_amount": "Minimum Order Amount",
+        "min_order_amount_hint": "Minimum order amount to apply this promo code",
+        "create": "Create",
+        "creating": "Creating..."
+      },
+      "notifications": {
+        "created_success": "Promo code created successfully",
+        "create_error": "Error creating promo code",
+        "deleted_success": "Promo code deleted successfully",
+        "delete_error": "Error deleting promo code"
+      }
+    },
+    "authentication": {
+      "title": "Create Verification Elements",
+      "description": "Create authentication codes for item with NFC chip",
+      "item_id": "Item ID",
+      "item_id_placeholder": "Enter item ID",
+      "tag_id": "Tag ID (Chip UID)",
+      "tag_id_placeholder": "Example: 042CA1236F6180",
+      "tag_id_help": "14 characters A-F, 0-9. Colons and spaces are removed automatically",
+      "generate": "Create Authentication Codes",
+      "generating": "Generating...",
+      "create_new": "Create New",
+      "public_code": "Public Code",
+      "qr_code_silver": "QR Code (Silver Level)",
+      "download_qr": "Download QR Code",
+      "qr_link": "QR Code Link",
+      "nfc_link_gold": "NFC Link (Gold Level)",
+      "nfc_description": "Link for writing to NFC chip (NTAG 213)",
+      "link_size": "Link size",
+      "characters": "characters",
+      "ntag213_compatible": "Compatible with NTAG 213 (180 bytes memory)",
+      "encrypted_data": "Contains encrypted data: itemId, publicCode, tagId, secretKey",
+      "additional_links": "Additional Links",
+      "basic_link": "Basic Link",
+      "gold_link_full": "Gold Link (Full)",
+      "codes_generated_success": "Authentication codes generated successfully",
+      "checking": "Checking...",
+      "codes_exist": "Codes Already Created",
+      "codes_already_exist": "Authentication codes for this item already exist",
+      "codes_already_exist_notification": "Codes for this item are already created",
+      "codes_created_at": "Codes created",
+      "check_existing": "Check Existing",
+      "instruction_title": "NFC Chip Instructions",
+      "step1_title": "Step 1: Download the app",
+      "step1_description": "To write codes to the chip, download",
+      "step1_android": "on your Android phone",
+      "step2_title": "Step 2: Find Tag ID",
+      "step2_description": "To find Tag ID - open the app on the \"Read\" tab and find Serial Number - this is the tag id.",
+      "important": "Important",
+      "tag_id_format_note": "tag ID is formatted automatically - just copy Serial Number from the app.",
+      "example": "Example",
+      "write_instruction_title": "NFC Link Writing Instructions",
+      "write_step1": "1. Download and install NFC Tools",
+      "write_step2": "2. In the \"Write\" section select \"Add a record\"",
+      "write_step3": "3. Select \"URL/URI\" type",
+      "write_step4": "4. Enter the link",
+      "write_step4_desc": "Enter link in format \"fansdream.ru/a?t={TAG_ID}&h=...\" where h is specified above.",
+      "attention": "Attention",
+      "write_step4_warning": "TagID should not be entered manually - select {TAG_ID} from the parameters button on the right!",
+      "write_step5": "5. Press OK",
+      "write_step6": "6. Press Write button",
+      "write_step7": "7. Bring NFC chip close and wait for write confirmation",
+      "write_step8": "8. For verification - exit the app and bring NFC tag to phone - authenticity confirmation page should open.",
+      "write_step9": "9. After successful writing and verification - open \"Other\" tab",
+      "write_step10": "10. Select \"Lock tag\"",
+      "write_step11": "11. Bring tag close for locking",
+      "write_step12": "12. Wait for confirmation.",
+      "write_step13": "13. Done!",
+      "critical_warning": "WARNING",
+      "lock_warning": "locked tag (steps 9-12) cannot be rewritten! Always verify data validity (step 8) before locking!",
+      "public_code_validated": "Public code verified",
+      "method2_input_placeholder": "For example: ABC123",
+      "check_another_product": "Check Another Product",
+      "back_to_verification": "Back to Verification",
+      "verification_failed": "Verification Failed",
+      "method1_warning": "⚠️ If the link doesn't open, try installing a free app like <b>NFC Tools</b> or <b>Smart NFC</b> and scan the NFC chip with it.",
+      "scanning_benefits_title": "By scanning the chip, you get:",
+      "scanning_benefit1": "authenticity confirmation;",
+      "scanning_benefit2": "details about the product, athlete and event;",
+      "scanning_benefit3": "a secure, unforgeable digital mark that <b>forever anchors this item in sports history.</b>",
+      "method2_title": "Method 2: QR Code Scanning",
+      "method2_step1": "Open the camera on your phone",
+      "method2_step2": "Point it at the QR code on the certificate",
+      "method2_step3": "Follow the link that appears",
+      "method2_step4": "An <b>electronic certificate of authenticity</b> will open",
+      "method3_title": "Method 3: Manual Unique Code Entry",
+      "method3_label": "Enter the unique code (indicated on the certificate or NFC chip) in the form below to verify authenticity:",
+      "title": "Product Authenticity",
+      "intro_text": "All our products come <strong>directly from athletes and clubs</strong>, which guarantees their <strong>100% authenticity</strong>. Each item is accompanied by a <strong>certificate of authenticity</strong> with a unique number and QR code for online verification. In particularly valuable textile products, we also embed <strong>NFC chips</strong> that can be scanned with a phone.",
+      "nfc_chips_title": "📲 NFC Chips: Future Technology in Sports History",
+      "nfc_chips_description": "We use <b>advanced NFC technology</b> to give you unique access to information about your item.",
+      "instruction_title": "How to Verify Product Authenticity",
+      "method1_title": "Method 1: NFC Chip Scanning",
+      "method1_step1": "Bring the back of your phone to the chip area",
+      "method1_step2": "Tap the notification that appears",
+      "method1_step3": "An <b>electronic certificate</b> will open with complete product information",
+      "description_ru": "Description (RU) *",
+      "description_en": "Description (EN) *"
+    },
+    "images_selector": {
+      "edit_images": "Edit Images",
+      "edit_images_description": "Manage product images: add new ones, change order, select main photo",
+      "images_count": "Images: {{count}}",
+      "thumbnail_selected": "Main photo selected",
+      "select_as_thumbnail": "Select as main",
+      "delete_image": "Delete",
+      "move_up": "Move up",
+      "move_down": "Move down",
+      "no_images": "No images",
+      "add_images_hint": "Add images for the product",
+      "add_images": "Add images",
+      "edit_image": "Edit",
+      "thumbnail_example_text": "Main photo (will be displayed in catalog)",
+      "image_number": "Image {{number}}",
+      "cannot_move_up": "Cannot move up",
+      "cannot_move_down": "Cannot move down",
+      "errors": {
+        "atLeast1ImageRequired": "At least one image is required",
+        "thumbnailRequired": "Main photo is required"
+      },
+      "delete_image": "Delete",
+      "select_as_thumbnail": "use as thumbnail",
+      "thumbnail_example_text": "<- Thumbnail example",
+      "image_number": "Imane #{{number}}",
+      "errors": {
+        "atLeast1ImageRequired": "Select at least one image",
+        "thumbnailRequired": "Thumbnail is required"
+      }
+    },
+    "teams": {
+      "title": "Team Management",
+      "subtitle": "View and manage teams",
+      "no_item_types_found": "No teams found",
+      "create_dialog": {
+        "title": "Create New Team",
+        "data_step_label": "Team Data",
+        "photo_step_label": "Photo Upload",
+        "done_step_label": "Done",
+        "created_player": "Team created successfully!",
+        "errors": {
+          "sport_id_required": "Sport is required",
+          "name_required": "Name is required",
+          "establish_date_required": "Establishment date is required",
+          "country_required": "Country is required",
+          "city_required": "City is required",
+          "stadium_required": "Stadium is required"
+        },
+        "fields": {
+          "sport_id": "Sport",
+          "sport_id_placeholder": "Select sport...",
+          "name": "Name",
+          "name_placeholder": "Zenit",
+          "established_at": "Establishment Date",
+          "country": "Country",
+          "city": "City",
+          "stadium": "Stadium"
+        }
+      },
+      "delete_dialog": {
+        "delete_success": "Team deleted successfully",
+        "title": "Delete Team",
+        "text": "Are you sure you want to delete this team?"
+      },
+      "table": {
+        "_id": "ID",
+        "sport_id": "Sport ID",
+        "name": "Name",
+        "country": "Country",
+        "city": "City",
+        "stadium": "Stadium",
+        "players": "Players",
+        "search": "Search by name",
+        "search_placeholder": "Zenit",
+        "description": "Description",
+        "established_at": "Establishment Date",
+        "created_at": "Created At",
+        "actions": "Actions"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "make_partner": "Make Partner",
+        "remove_partner": "Remove Partnership"
+      },
+      "create_team": "Create Team",
+      "error_loading": "Error loading teams. Please try again later.",
+      "partner_dialog": {
+        "title": "Make Partner?",
+        "text": "The team will appear on the main page and their products will be highlighted in a separate section on the main page",
+        "confirm": "Make Partner",
+        "remove_title": "Remove Partnership?",
+        "remove_text": "The team will no longer be displayed on the main page as a partner",
+        "remove_confirm": "Remove Partnership",
+        "cancel": "Cancel",
+        "confirming": "Saving..."
+      },
+      "stats": {
+        "total_teams": "Total Teams",
+        "total_players": "Total Players",
+        "average_players_per_team": "Average Players per Team",
+        "teams_with_stadium": "Teams with Stadium",
+        "partners": "Partners"
+      }
+    },
+    "players": {
+      "title": "Player Management",
+      "subtitle": "View and manage players",
+      "no_item_types_found": "No players found",
+      "create_dialog": {
+        "title": "Create New Player",
+        "data_step_label": "Player Data",
+        "photo_step_label": "Photo Upload",
+        "done_step_label": "Done",
+        "created_player": "Player created successfully!",
+        "errors": {
+          "sport_id_required": "Sport is required",
+          "position_required": "Position is required",
+          "name_required": "Name is required",
+          "last_name_required": "Last name is required",
+          "birth_date_required": "Birth date is required"
+        },
+        "fields": {
+          "sport_id": "Sport",
+          "sport_id_placeholder": "Select sport...",
+          "position": "Player Position",
+          "position_placeholder": "Select position...",
+          "name": "Name",
+          "name_placeholder": "John",
+          "last_name": "Last Name",
+          "last_name_placeholder": "Doe",
+          "middle_name": "Middle Name (optional)",
+          "birth_date": "Birth Date",
+          "country": "Country",
+          "city": "City (optional)",
+          "number": "Number (optional)",
+          "gender": "Gender",
+          "gender_male": "Male",
+          "gender_female": "Female"
+        }
+      },
+      "delete_dialog": {
+        "delete_success": "Player deleted successfully",
+        "title": "Delete Player",
+        "text": "Are you sure you want to delete this player?"
+      },
+      "table": {
+        "_id": "ID",
+        "sport_id": "Sport ID",
+        "team_id": "Team ID",
+        "name": "Name",
+        "team": "Team",
+        "position": "Position",
+        "number": "Number",
+        "gender": "Gender",
+        "country": "Country",
+        "city": "City",
+        "birth_date": "Birth Date",
+        "search": "Search by name",
+        "search_placeholder": "John Doe",
+        "description": "Description",
+        "created_at": "Created At",
+        "actions": "Actions"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "make_partner": "Make Partner",
+        "remove_partner": "Remove Partnership"
+      },
+      "create_player": "Create Player",
+      "error_loading": "Error loading players. Please try again later.",
+      "partner_dialog": {
+        "title": "Make Partner?",
+        "text": "The athlete will appear on the main page and their products will be highlighted in a separate section on the main page",
+        "confirm": "Make Partner",
+        "remove_title": "Remove Partnership?",
+        "remove_text": "The athlete will no longer be displayed on the main page as a partner",
+        "remove_confirm": "Remove Partnership",
+        "cancel": "Cancel",
+        "confirming": "Saving..."
+      },
+      "stats": {
+        "total_players": "Total Players",
+        "male_players": "Male Players",
+        "female_players": "Female Players",
+        "players_with_team": "With Team",
+        "players_with_number": "With Number",
+        "average_age": "Average Age",
+        "partners": "Partners"
+      }
+    },
+    "events": {
+      "title": "Event Management",
+      "subtitle": "View and manage sports events",
+      "no_events_found": "No events found",
+      "create_dialog": {
+        "title": "Create New Event",
+        "data_step_label": "Event Data",
+        "photo_step_label": "Photo Upload",
+        "done_step_label": "Done",
+        "created_event": "Event created successfully!",
+        "errors": {
+          "sport_id_required": "Sport is required",
+          "name_required": "Event name is required",
+          "start_date_required": "Start date is required",
+          "end_date_required": "End date is required",
+          "participants_required": "Participants are required",
+          "country_required": "Country is required",
+          "city_required": "City is required",
+          "stadium_required": "Stadium is required"
+        },
+        "fields": {
+          "sport_id": "Sport",
+          "sport_id_placeholder": "Select sport...",
+          "name": "Event Name",
+          "name_placeholder": "World Cup Final",
+          "description": "Description (optional)",
+          "description_placeholder": "Detailed event description...",
+          "start_date": "Start Date",
+          "end_date": "End Date",
+          "country": "Country",
+          "city": "City",
+          "stadium": "Stadium",
+          "participants": "Participants",
+          "is_partner": "Partner Event",
+          "images": "Event Images"
+        },
+        "selected_images": "Selected images",
+        "event_created_success": "Event created successfully!"
+      },
+      "delete_dialog": {
+        "delete_success": "Event deleted successfully",
+        "title": "Delete Event",
+        "text": "Are you sure you want to delete this event?"
+      },
+      "table": {
+        "_id": "ID",
+        "sport_id": "Sport ID",
+        "name": "Name",
+        "description": "Description",
+        "start_date": "Start Date",
+        "end_date": "End Date",
+        "country": "Country",
+        "city": "City",
+        "stadium": "Stadium",
+        "participants": "Participants",
+        "partner": "Partner",
+        "search": "Search by name",
+        "search_placeholder": "World Cup Final...",
+        "created_at": "Created At",
+        "actions": "Actions"
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "make_partner": "Make Partner",
+        "remove_partner": "Remove Partnership"
+      },
+      "create_event": "Create Event",
+      "error_loading": "Error loading events. Please try again later.",
+      "partner_dialog": {
+        "title": "Make Partner?",
+        "text": "The event will appear on the main page and be highlighted in a separate section",
+        "confirm": "Make Partner",
+        "remove_title": "Remove Partnership?",
+        "remove_text": "The event will no longer be displayed on the main page as a partner",
+        "remove_confirm": "Remove Partnership",
+        "cancel": "Cancel",
+        "confirming": "Saving..."
+      },
+      "stats": {
+        "total_events": "Total Events",
+        "upcoming_events": "Upcoming",
+        "past_events": "Past",
+        "partner_events": "Partner",
+        "events_this_month": "This Month",
+        "events_with_stadium": "With Stadium"
+      }
+    },
+    "itemLabels": {
+      "title": "Item Labels",
+      "subtitle": "Manage item labels",
+      "create_label": "Create label",
+      "error_loading": "Error loading labels",
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "table": {
+        "_id": "ID",
+        "name_ru": "Name (RU)",
+        "name_en": "Name (EN)",
+        "description": "Description",
+        "created_at": "Created",
+        "actions": "Actions"
+      },
+      "create_dialog": {
+        "title": "Create label",
+        "id": "ID",
+        "name_ru": "Name (RU)",
+        "name_en": "Name (EN)",
+        "name_ru_placeholder": "For example, Новинка",
+        "name_en_placeholder": "For example, New",
+        "description_ru": "Description (RU)",
+        "description_en": "Description (EN)",
+        "description_ru_placeholder": "Label description in Russian",
+        "description_en_placeholder": "Label description in English"
+      },
+      "delete_dialog": {
+        "title": "Delete label?",
+        "text": "Are you sure you want to delete this label?",
+        "delete_success": "Label deleted successfully"
+      },
+      "edit_dialog": {
+        "title": "Edit label",
+        "name_ru": "Name (RU)",
+        "name_en": "Name (EN)",
+        "name_ru_placeholder": "For example, Новинка",
+        "name_en_placeholder": "For example, New",
+        "description_ru": "Description (RU) *",
+        "description_en": "Description (EN) *",
+        "description_ru_placeholder": "Label description in Russian",
+        "description_en_placeholder": "Label description in English"
+      }
+    },
+    "items": {
+      "title": "Item Management",
+      "subtitle": "View and manage site items",
+      "no_item_types_found": "No items found",
+      "create_dialog": {
+        "title": "Create New Item",
+        "data_step_label": "Data",
+        "stock_step_label": "Stock",
+        "photo_step_label": "Photos",
+        "done_step_label": "Done",
+        "created_item": "Item created successfully!",
+        "errors": {
+          "sport_id_required": "Sport is required",
+          "type_required": "Category is required",
+          "title_required": "Title is required",
+          "description_required": "Add description (min 5 characters)",
+          "weight_required": "Add weight (min 1 gram)",
+          "price_required": "Enter price, greater than 0",
+          "dates_required_for_bidding": "For auction, start and end dates are required",
+          "end_date_after_start_date": "End date must be after start date"
+        },
+        "fields": {
+          "sport_id": "Sport",
+          "sport_id_placeholder": "Select sport...",
+          "type": "Category",
+          "type_placeholder": "Select category...",
+          "title": "Title",
+          "title_placeholder": "Shirt",
+          "price": "Price",
+          "description": "Description",
+          "description_placeholder": "Brief description",
+          "weight": "Weight (in grams)",
+          "length": "Length (in cm)",
+          "width": "Width (in cm)",
+          "height": "Height (in cm)",
+          "start_date": "Sales/Trading Start",
+          "end_date": "Sales/Trading End",
+          "sales_method": "Sales Type",
+          "sales_method_fixed": "Fixed",
+          "sales_method_bidding": "Auction",
+          "labels": "Labels",
+          "size_type": "Size Type",
+          "team_id": "Team ID",
+          "team_id_placeholder": "Enter team ID...",
+          "player_id": "Player ID",
+          "player_id_placeholder": "Enter player ID...",
+          "event_id": "Event",
+          "event_id_placeholder": "Select event..."
+        },
+        "size_types": {
+          "numeric": "Numeric",
+          "alphabet": "Alphabetic",
+          "fixed": "One Size"
+        },
+        "labels": {
+          "worn": "Was worn",
+          "issued": "Match issued",
+          "signed": "Signed",
+          "epic": "Epic"
+        }
+      },
+      "delete_dialog": {
+        "delete_success": "Item deleted successfully",
+        "title": "Delete Item",
+        "text": "Are you sure you want to delete this item?"
+      },
+      "table": {
+        "_id": "ID",
+        "sport_id": "Sport ID",
+        "team_id": "Team ID",
+        "player_id": "Player ID",
+        "title": "Title",
+        "type": "Category",
+        "description": "Description",
+        "created_at": "Created At",
+        "sales_method": "Sales Type",
+        "sales_method_fixed": "Fixed",
+        "sales_method_bidding": "Auction",
+        "actions": "Actions",
+        "search": "Search",
+        "search_placeholder": "Zenit shirt..."
+      },
+      "actions": {
+        "edit": "Edit",
+        "delete": "Delete"
+      },
+      "create_item": "Add Product",
+      "error_loading": "Error loading items. Please try again later.",
+      "edit_dialog": {
+        "title": "Edit Item",
+        "data_step_label": "Data",
+        "stock_step_label": "Stock",
+        "images_step_label": "Photos",
+        "done_step_label": "Done",
+        "updated_item": "Item updated successfully!",
+        "nothing_changed": "Nothing changed",
+        "save": "Save"
+      }
+    }
+  },
+  "item_id_required": "Item ID is required",
+  "tag_id_length": "TAG ID must be exactly 14 characters",
+  "tag_id_format": "TAG ID must contain only digits 0-9 and letters A-F",
+  "generate_codes_error": "Error generating codes",
+  "item_not_found": "Item not found",
+  "auth_codes_already_exist": "Authentication codes for this item already exist",
+  "auth_codes_not_found": "Authentication codes for this item not found",
+  "verification_error": "Error verifying authenticity",
+  "redirecting": "Redirecting...",
+  "try_again": "Try Again",
+  "rateLimit": "Too many requests. Please try again later.",
+  "authenticate": {
+    "verification_failed": "Verification Failed",
+    "verification_error": "An error occurred while verifying authenticity",
+    "no_data": "No Data to Verify",
+    "invalid_link": "Invalid authentication link",
+    "authentic": "Authentic Item",
+    "not_authentic": "Item Not Verified",
+    "level": "level",
+    "level_basic": "BASIC",
+    "level_silver": "SILVER",
+    "level_gold": "GOLD",
+    "level_basic_desc": "Database existence check",
+    "level_silver_desc": "QR code with public code",
+    "level_gold_desc": "NFC chip with secret key",
+    "item_info": "Item Information",
+    "images": "Images",
+    "title": "Title",
+    "description": "Description",
+    "status": "Status",
+    "verification_details": "Verification Details",
+    "verification_time": "Verification Time",
+    "verification_type": "Verification Type",
+    "security_level": "Security Level",
+    "public_code_validated": "Public code verified",
+    "secret_key_validated": "Secret key verified",
+    "chip_uid_verified": "Chip UID verified",
+    "form_description": "Enter data to verify item authenticity",
+    "public_code_placeholder": "Enter public code",
+    "public_code_help": "Public code increases verification level",
+    "verify_button": "Verify Authenticity",
+    "no_data_description": "The link does not contain the necessary data for authenticity verification.",
+    "error_explanation": "Possible reasons:",
+    "error_invalid_link": "Invalid or corrupted link",
+    "error_item_not_found": "Item not found in database",
+    "error_codes_mismatch": "Authentication codes mismatch",
+    "support_message": "If you have any questions, contact our support:",
+    "verification_types": {
+      "serial": "Serial Number Verification",
+      "nfc": "NFC Chip Verification"
+    },
+    "security_levels": {
+      "basic": "Basic",
+      "advanced": "Advanced"
+    }
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Cart is empty",
+    "empty_desc": "Add items to cart for checkout",
+    "size": "Size",
+    "quantity": "Quantity",
+    "total": "Total",
+    "go_to_checkout": "Go to checkout",
+    "continue_shopping": "Continue shopping",
+    "added_to_cart": "Item added to cart",
+    "select_size": "Select size",
+    "steps": {
+      "cart": "CART",
+      "delivery": "DELIVERY",
+      "payment": "PAYMENT"
+    },
+    "summary": {
+      "title": "TOTAL:",
+      "subtotal": "Items",
+      "shipping": "Shipping",
+      "shipping_free": "Free",
+      "promo_code": "Do you have a promo code?",
+      "promo_placeholder": "Enter promo code",
+      "apply_promo": "Apply",
+      "discount": "Discount",
+      "continue": "Continue"
+    },
+    "item": {
+      "add_packaging": "Add packaging",
+      "decrease": "Decrease quantity",
+      "increase": "Increase quantity",
+      "remove": "Remove item"
+    },
+    "sizes": {
+      "xs": "XS",
+      "s": "S",
+      "m": "M",
+      "l": "L",
+      "xl": "XL",
+      "oneSize": "One size"
+    }
+  },
+  "auction_rules": {
+    "title": "ONLINE AUCTION RULES IN FAN'S DREAM ONLINE STORE",
+    "revision": "Revision No. 1 dated June 08, 2025",
+    "sections": {
+      "general": {
+        "title": "1. General Provisions",
+        "content": {
+          "1.1": "1.1. This document (hereinafter - \"Rules\") contains all essential conditions for participation of individuals (hereinafter - \"Participants\") in open competitive bidding in electronic form (hereinafter - \"Auctions\"), conducted by Individual Entrepreneur Zabezhinsky Dmitry Ilyich (OGRNIP: 325784700063390, INN: 781304608018, hereinafter - \"Organizer\") in the Fan's Dream Online Store, which is an Internet site with the domain name fansdream.ru, as well as the Fan's Dream mobile application (hereinafter - \"Online Store\").",
+          "1.2": "1.2. Auctions are held to determine the person offering the highest price for unique sports goods and services of professional sports clubs offered by the Platform (hereinafter - \"Winner\"). The Winner receives the right to conclude contracts for the sale and purchase of Goods and provision of Services (hereinafter - \"Contracts\").",
+          "1.3": "1.3. The conditions provided for by the Public Offer of the Fan's Dream Online Store (hereinafter - \"Offer\") apply to the procedure for the execution of Contracts, unless otherwise provided by the Rules (in particular, but not limited to, conditions on payment, delivery, return of Goods, refusal of Services or cancellation of Services by the Organizer. The Organizer becomes the Seller in the terminology of the Offer, and the Winner - the Client).",
+          "1.3_continuation": "In case of contradiction between the Rules and the Offer to Contracts concluded as a result of Auctions, the Rules apply. Terms used in the Rules with a capital letter have the meaning provided for by the Offer, unless otherwise expressly provided for by the Rules.",
+          "1.4": "1.4. The Rules may be changed by the Organizer without any special notice, the new version of the Rules comes into force from the moment of its placement on the Site, unless otherwise provided for by the new version of the Rules, and does not apply to legal relations between the Organizer and Participants that arose before the new version of the Rules came into force.",
+          "1.5": "1.5. The legislation of the Russian Federation applies to relations between the Organizer and Participants.",
+          "1.5_continuation": "In case of questions and claims from the Participant, he can contact support@fansdream.ru All disputes that arise, the Organizer and the Participant will strive to resolve through negotiations, if no agreement is reached, the dispute may be submitted for consideration to the court in accordance with the current legislation of the Russian Federation."
+        }
+      },
+      "requirements": {
+        "title": "2. Requirements for Participants",
+        "content": {
+          "2.1": "2.1. Any capable individual who has reached the age of 18 and has an Account in the Online Store can be a Participant of the Auction.",
+          "2.2": "2.2. To participate in Auctions, when creating an Account, the Participant indicates the following data necessary for identification by the Organizer: last name, first name, patronymic, delivery address of Goods, contact phone number, e-mail, bank card data provided for by the Online Store interface.",
+          "2.2_continuation": "Identification is carried out by offering the Participant to enter verification codes sent by the Organizer in SMS messages and emails to the contact details specified by the Participant, as well as by test debiting an amount from 1 to 11 rubles from the bank card specified by the Participant with subsequent return of the debited amount.",
+          "2.3": "2.3. Participants who have not indicated all the data requested by the Online Store interface or who have not passed identification are not allowed to participate in Auctions.",
+          "2.3_continuation": "Participants who have passed identification receive the opportunity to place bids within active Auctions through the Online Store interface.",
+          "2.4": "2.4. Participants who have violated any provision of the Rules may be denied participation in any Auctions, and the action of their Account may be restricted by the Organizer."
+        }
+      },
+      "auction_procedure": {
+        "title": "3. Auction Procedure",
+        "content": {
+          "3.1": "3.1. Auction documentation for the purposes of the Rules means information specified in the Cards of auction Goods and Services (hereinafter jointly - \"Lots\"). The Organizer ensures that the Cards indicate descriptions of Lots (including History of Goods), terms of the Auction (including countdown to start and end), starting price of the Lot, last highest bid at the moment (in relation to active auctions).",
+          "3.2": "3.2. On the day of the start of the Auction in relation to the corresponding Lot, the Auction becomes active, i.e. the Online Store interface provides the opportunity to place bids. By placing a bid, the Participant confirms his familiarization with the Rules and auction documentation.",
+          "3.3": "3.3. Auctions are held in Russian rubles. The Auction may provide for a minimum bid step specified in the Online Store interface. The Participant must place a bid that exceeds the last highest bid at the moment, indicated in the Card, taking into account the size of the minimum bid step, if applicable.",
+          "3.4": "3.4. The Organizer notifies the Participant about placed bids, about bids of other Participants exceeding the one placed by the Participant, about the Participant's victory in the Auction and the issuance of an invoice for payment of the Lot by means of emails, SMS messages to the contact details specified by the Participant, as well as using push notifications in the Application. By placing a bid, the Participant agrees to receive the specified notifications. The Participant can configure preferences regarding mailings in the Personal Account.",
+          "3.5": "3.5. Until the end of the Auction period specified in the Card, the Organizer has the right to remove any Lot from trading without explanation. The Organizer has the right to change the beginning of an unstarted Auction by changing information about this in the Card.",
+          "3.6": "3.6. The Auction is considered completed on the day and hour specified in the Card. The winner of the Auction is the Participant who offered the highest price for the Lot. The Organizer places in the Card a protocol - information about the size of the winning bid or information that the Auction is recognized as not having taken place in cases provided for by the legislation of the Russian Federation."
+        }
+      },
+      "bidding": {
+        "title": "4. Winner's Obligations",
+        "content": {
+          "4.1": "4.1. The Winner undertakes to conclude a Contract with the Organizer by making payment for the Lot within 24 hours from the moment of receiving notification of victory by the methods provided for in clause 3.4 of the Rules and placing an invoice in the Personal Account.",
+          "4.2": "4.2. The amount specified in the invoice consists of the size of the winning bid, the Organizer's commission, which is 10% of the amount of the winning bid, and the cost of delivery of the Goods (applicable for Auctions for Goods). The Winner also has the right to request Additional services in relation to Goods, in relation to which the Organizer forms a separate invoice.",
+          "4.3": "4.3. The Winner makes payment only by non-cash online payment or Gift Certificate in accordance with the conditions of sections 6 and 7 of the Offer.",
+          "4.4": "4.4. The Winner who has not paid the invoice within the period established by clause 4.1 of the Rules loses the right to conclude the Contract.",
+          "4.4_continuation": "The Organizer has the right, at its discretion, to hold a repeated Auction in relation to such a Lot, offer the Participant who made the second highest bid to conclude a Contract, or dispose of the Lot in another way at its discretion.",
+          "4.5": "4.5 If the Auction is recognized as not having taken place due to the participation of a single Participant in it, such Participant hereby agrees that the bid made by him is an offer to conclude a Contract with the Organizer in relation to the Lot at a price corresponding to the bid made.",
+          "4.5_continuation": "The Organizer has the right to accept such an offer and conclude a Contract with such a Participant or dispose of the Lot at its discretion. The acceptance of the offer of the single Participant will be considered the sending to him in the Personal Account of an invoice for payment of the Lot in the amount provided for in clause 4.2 of the Rules, subject to payment within the time limits established by clause 4.1 of the Rules."
+        }
+      }
+    }
+  },
+  "checkout": {
+    "contact_info": {
+      "title": "Contact Information",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "middle_name": "Middle Name (optional)",
+      "phone": "Phone"
+    },
+    "shipping_from": {
+      "title": "Shipping from apartment",
+      "address": "Universitetsky Prospekt 23 bld.1, Moscow"
+    },
+    "address": {
+      "title": "Select Delivery Address",
+      "no_addresses": "You have no saved addresses",
+      "add_address": "Add Address"
+    },
+    "delivery": {
+      "title": "Delivery Method",
+      "period": "Delivery Time",
+      "upto": "up to",
+      "days": "days",
+      "no_options": "No delivery options available",
+      "no_options_desc": "Try selecting a different address or contact support"
+    },
+    "validation": {
+      "select_address": "Select delivery address",
+      "select_delivery": "Select delivery method",
+      "fill_contact_info": "Fill in all contact information fields",
+      "complete_required": "To continue, you need to",
+      "missing_contact_info": "Fill in contact information",
+      "missing_address": "Select delivery address",
+      "missing_delivery": "Select delivery method"
+    },
+    "messages": {
+      "address_added": "Address added successfully",
+      "address_updated": "Address updated successfully",
+      "address_add_failed": "Failed to add address",
+      "address_update_failed": "Failed to update address",
+      "default_address_changed": "Default address changed",
+      "default_address_change_failed": "Failed to change default address",
+      "not_selected": "Not selected"
+    },
+    "payment": {
+      "title": "Payment Method",
+      "select_payment_method": "Select payment method",
+      "add_payment_method": "Add Payment Method",
+      "no_payment_methods": "You have no saved payment methods",
+      "no_payment_methods_desc": "Add a bank card to pay for your order",
+      "card_ending": "Card •••• {{last4}}",
+      "expires": "Expires",
+      "default_card": "Default card",
+      "pay_now": "Pay Now",
+      "processing": "Processing...",
+      "order_total": "Total to pay",
+      "agreement": {
+        "title": "Terms Agreement",
+        "text": "By clicking \"Pay Now\", you agree to",
+        "terms": "terms of service",
+        "privacy": "privacy policy",
+        "auction_rules": "auction rules",
+        "and": "and",
+        "accept": "I agree to the terms"
+      },
+      "validation": {
+        "select_payment_method": "Select payment method",
+        "accept_terms": "You must agree to the terms",
+        "complete_required": "To continue, you need to",
+        "missing_payment_method": "Select payment method",
+        "missing_agreement": "Agree to the terms"
+      },
+      "success_message": "Payment successful! Order placed.",
+      "auto_charge_available": "Auto-charge available",
+      "manual_payment_only": "Manual payment only",
+      "card_no_rebill_support": "Select a card with auto-charge support"
+    }
+  },
+  "payment_success": {
+    "title": "Payment Successful!",
+    "subtitle": "Your order has been placed and is being processed",
+    "order_info": {
+      "title": "Order Information",
+      "order_number": "Order Number",
+      "payment_id": "Payment ID",
+      "amount": "Payment Amount",
+      "status": "Status",
+      "date": "Date and Time",
+      "items": "Items",
+      "items_count": "{{count}} item",
+      "items_count_plural": "{{count}} items"
+    },
+    "delivery_info": {
+      "title": "Delivery Information",
+      "method": "Delivery Method",
+      "address": "Delivery Address",
+      "cost": "Delivery Cost",
+      "period": "Delivery Time",
+      "tracking": "Tracking",
+      "tracking_desc": "Tracking number will be sent to your email after the order is transferred to the delivery service"
+    },
+    "payment_info": {
+      "title": "Payment Details",
+      "subtotal": "Subtotal",
+      "service_fee": "Service Fee",
+      "shipping": "Shipping",
+      "discount": "Discount",
+      "total": "Total"
+    },
+    "next_steps": {
+      "title": "What's Next?",
+      "step1": "We start processing your order",
+      "step2": "You'll receive a notification when ready to ship",
+      "step3": "Order will be transferred to delivery service",
+      "step4": "You'll receive a tracking number"
+    },
+    "actions": {
+      "view_orders": "My Orders",
+      "continue_shopping": "Continue Shopping",
+      "track_order": "Track Order",
+      "contact_support": "Contact Support"
+    },
+    "messages": {
+      "receipt_sent": "Receipt sent to your email",
+      "order_processing": "Your order is being processed",
+      "notification_sent": "Order notification sent to your email",
+      "thank_you": "Thank you for your purchase!"
+    }
+  },
+  "country": {
+    "ru": "Russia",
+    "us": "United States",
+    "ca": "Canada",
+    "de": "Germany",
+    "fr": "France",
+    "it": "Italy",
+    "es": "Spain",
+    "gb": "United Kingdom",
+    "au": "Australia",
+    "cn": "China",
+    "jp": "Japan",
+    "in": "India",
+    "br": "Brazil",
+    "mx": "Mexico",
+    "ar": "Argentina",
+    "tr": "Turkey",
+    "kz": "Kazakhstan",
+    "by": "Belarus",
+    "ua": "Ukraine",
+    "se": "Sweden",
+    "no": "Norway",
+    "fi": "Finland",
+    "dk": "Denmark",
+    "pl": "Poland",
+    "cz": "Czech Republic",
+    "sk": "Slovakia",
+    "ro": "Romania",
+    "bg": "Bulgaria",
+    "gr": "Greece",
+    "pt": "Portugal",
+    "ch": "Switzerland",
+    "at": "Austria",
+    "nl": "Netherlands",
+    "be": "Belgium",
+    "ie": "Ireland",
+    "il": "Israel",
+    "sg": "Singapore",
+    "my": "Malaysia",
+    "id": "Indonesia",
+    "th": "Thailand",
+    "kr": "South Korea",
+    "nz": "New Zealand",
+    "rs": "Serbia",
+    "hr": "Croatia",
+    "si": "Slovenia",
+    "ee": "Estonia",
+    "lv": "Latvia",
+    "lt": "Lithuania",
+    "za": "South Africa",
+    "eg": "Egypt",
+    "ma": "Morocco",
+    "ae": "United Arab Emirates",
+    "sa": "Saudi Arabia",
+    "ng": "Nigeria",
+    "co": "Colombia",
+    "cv": "Cape Verde",
+    "uy": "Uruguay",
+    "ml": "Mali",
+    "ba": "Bosnia and Herzegovina",
+    "uz": "Uzbekistan",
+    "tt": "Trinidad and Tobago",
+    "cr": "Costa Rica",
+    "lu": "Luxembourg",
+    "py": "Paraguay",
+    "cm": "Cameroon",
+    "al": "Albania",
+    "ir": "Iran",
+    "am": "Armenia",
+    "tm": "Turkmenistan",
+    "ci": "Ivory Coast",
+    "me": "Montenegro",
+    "bo": "Bolivia",
+    "ge": "Georgia",
+    "cl": "Chile",
+    "ao": "Angola",
+    "dz": "Algeria",
+    "ec": "Ecuador"
+  },
+  "cookie_notification": {
+    "title": "We use cookies",
+    "description": "This website uses cookies. By continuing, you agree to their use and <a href=\"/legal/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-blue-600 hover:text-blue-800 underline\">processing of personal data</a>.",
+    "button": "Accept"
+  },
+  "notification_settings_updated": "Notification settings updated successfully",
+  "error_updating_notification_settings": "Error updating notification settings",
+  "profile": {
+    "favorite_teams": {
+      "all_tab": "All",
+      "events_tab": "Events",
+      "teams_tab": "Teams",
+      "athletes_tab": "Athletes",
+      "empty_all": "You have no favorites yet",
+      "empty_events": "You have no favorite events yet",
+      "empty_teams": "You have no favorite teams yet",
+      "empty_athletes": "You have no favorite athletes yet",
+      "add_favorites": "Add interesting teams, athletes and events to your favorites",
+      "add_events": "Add interesting events to your favorites",
+      "add_teams": "Add interesting teams to your favorites",
+      "add_athletes": "Add interesting athletes to your favorites"
+    }
+  },
+  "pages": {
+    "events": {
+      "loading": "Loading event...",
+      "not_found": "Event not found",
+      "partner": "Partner",
+      "info": {
+        "sport": "Sport",
+        "start_date": "Start Date",
+        "end_date": "End Date",
+        "location": "Location",
+        "participants": "Participants",
+        "home": "home"
+      },
+      "items": {
+        "loading": "Loading items...",
+        "items_on_sale": "Items on Sale",
+        "no_items": "This event has no items yet",
+        "no_items_description": "Items for this event will appear in our catalog soon"
+      }
+    }
+  },
+  "emails": {
+    "order_confirmation": {
+      "title": "Order Confirmed!",
+      "subject": "Order Confirmation",
+      "greeting": "Hello!",
+      "greeting_with_name": "Hello, {{name}}!",
+      "message": "Your order has been successfully placed and is being processed. Thank you for your purchase!",
+      "order_details": "Order Details",
+      "order_number": "Order Number",
+      "order_date": "Order Date",
+      "total_amount": "Total Amount",
+      "status": "Status",
+      "order_items": "Order Items",
+      "size": "Size",
+      "quantity": "Quantity",
+      "delivery_info": "Delivery Information",
+      "recipient": "Recipient",
+      "delivery_address": "Delivery Address",
+      "delivery_cost": "Delivery Cost",
+      "free_delivery": "Free Delivery",
+      "next_steps": "What's Next?",
+      "step_1": "We will process your order and prepare it for shipment",
+      "step_2": "You will receive a notification when the order is transferred to the delivery service",
+      "step_3": "You can track the delivery status using the tracking number",
+      "step_4": "Receive your order at the specified location at your convenience",
+      "view_order": "View Order",
+      "thank_you": "Thank you for choosing Fan's Dream! Happy shopping!"
+    }
+  }
+}

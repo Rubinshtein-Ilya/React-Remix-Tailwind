@@ -1,0 +1,82 @@
+/* Скрываем все подменю по умолчанию */
+.group [class*="submenu-"] {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.15s ease;
+  will-change: opacity, visibility, transform;
+}
+
+/* Создаем невидимый мост между командой и подменю */
+.group [class*="submenu-"]::before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
+}
+
+/* Оптимизация для плавности анимации */
+.group [class*="submenu-"] * {
+  will-change: auto;
+}
+
+/* Расширяем зону hover для плавного перехода */
+.group:hover::after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background: transparent;
+  z-index: 45;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .group [class*="submenu-"] {
+    position: fixed;
+    left: 0 !important;
+    right: 0;
+    top: auto !important;
+    bottom: 0;
+    min-width: 100vw;
+    max-height: 70vh;
+    overflow-y: auto;
+    border-radius: 0;
+    margin-left: 0 !important;
+  }
+
+  .group:hover::after {
+    display: none;
+  }
+}
+
+/* Анимации для компонента записи */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}

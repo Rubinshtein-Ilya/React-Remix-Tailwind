@@ -1,0 +1,40 @@
+/* Стили для автозаполнения полей */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgba(249, 178, 52, 0.4) inset !important;
+  -webkit-text-fill-color: #121212 !important;
+  box-shadow: 0 0 0 30px rgba(249, 178, 52, 0.4) inset !important;
+  color: #121212 !important;
+  background-color: rgba(249, 178, 52, 0.4) !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  caret-color: #121212 !important;
+  cursor: text !important;
+  transition: all 0.2s ease !important;
+  border-radius: 0.5rem !important;
+}
+
+/* Дополнительные стили для focus состояния autofill */
+input:-webkit-autofill:focus {
+  outline: 2px solid rgba(249, 178, 52, 0.4) !important;
+  outline-offset: -1px !important;
+}
+
+/* Для Firefox */
+input:-moz-autofill {
+  background-color: rgba(249, 178, 52, 0.4) !important;
+  color: #121212 !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  caret-color: #121212 !important;
+  cursor: text !important;
+  transition: all 0.2s ease !important;
+  border-radius: 0.5rem !important;
+}
+
+/* Для лучшей видимости курсора во всех input полях */
+input {
+  caret-color: #121212;
+} 

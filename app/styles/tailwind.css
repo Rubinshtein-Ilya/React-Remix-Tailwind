@@ -1,0 +1,6 @@
+@import url('/fonts/zen/zen.css');
+@import url('/fonts/Inter/inter.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 

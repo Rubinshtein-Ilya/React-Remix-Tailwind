@@ -1,0 +1,94 @@
+:root {
+  /* Light theme colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f3f4f6;
+  --bg-accent: #f8fafc;
+  --bg-dark: #121212;
+  --bg-gray: #f8f8f8;
+  --bg-attention: #f9b234;
+  --bg-muted: #dbdbdb;
+  --bg-soft-gray: #f7f7f7;
+
+  --text-primary: #121212;
+  --text-secondary: #ffffff;
+  --text-accent: #4b5563;
+  --text-dark-red: #7b1429;
+  --text-muted: #787878;
+  --text-black: #000000;
+  --text-whitesmoke: #f1f1f1;
+  --text-muted-light: #dcdcdc;
+
+  --button-primary: #dc2626;
+  --button-hover: #b91c1c;
+
+  --card-bg: #e5e7eb;
+  --header-bg: rgba(255, 255, 255, 0.95);
+
+  --bg-hover: rgba(0, 0, 0, 0.1);
+
+  --border-gray: #cfcfcf;
+  --border-black: #000000;
+  --border-neutral: #787878;
+  --border-dark: #121212;
+  --border-muted: #dcdcdc;
+}
+
+[data-theme="dark"] {
+  /* Dark theme colors */
+  --bg-primary: #000000;
+  --bg-secondary: #111827;
+  --bg-accent: #1f2937;
+
+  --text-primary: #ffffff;
+  --text-secondary: #e5e7eb;
+  --text-accent: #d1d5db;
+
+  --button-primary: #ef4444;
+  --button-hover: #dc2626;
+
+  --card-bg: #1f2937;
+  --header-bg: rgba(0, 0, 0, 0.95);
+
+  --bg-hover: rgba(255, 255, 255, 0.1);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: "ProductSans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+/* Добавляем стили для интерактивных элементов */
+button,
+a[href],
+input[type="submit"],
+.interactive {
+  cursor: pointer;
+}
+
+/* Добавляем hover эффекты */
+button:hover,
+a[href]:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+/* Стили для активных состояний */
+button:active,
+a[href]:active {
+  opacity: 0.8;
+}
+
+.container {
+  max-width: 100%;
+  margin-inline: auto;
+  padding-inline: 1.625rem;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1195px;
+    padding-inline: 0;
+  }
+}
